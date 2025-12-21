@@ -1,0 +1,758 @@
+[
+  {
+    "id": "question-1",
+    "sprite": {
+      "page": 2,
+      "x": 41.687,
+      "y": 119.327,
+      "width": 60.197,
+      "height": 62.224
+    },
+    "question": "Stop sign requirements",
+    "prompt": {
+      "en": "What must you do when you see this sign?",
+      "km": "តើ​អ្នក​ត្រូវ​ធ្វើ​អ្វី​នៅ​ពេល​ឃើញ​សញ្ញា​នេះ?"
+    },
+    "answer": {
+      "en": "You must come to a complete stop.",
+      "km": "អ្នក​ត្រូវ​តែ​ឈប់​ពេញលេញ។"
+    },
+    "image": "/assets/road-signs/stop-sign.svg",
+    "alt": "Red octagonal stop sign from DMV chart"
+  },
+  {
+    "id": "question-2",
+    "sprite": {
+      "page": 2,
+      "x": 112.009,
+      "y": 126.986,
+      "width": 63.310,
+      "height": 56.123
+    },
+    "question": "Yield sign actions",
+    "prompt": {
+      "en": "How should you respond when you see this sign?",
+      "km": "តើ​អ្នក​គួរ​ឆ្លើយតប​ដូចម្តេច​នៅ​ពេល​ឃើញ​សញ្ញា​នេះ?"
+    },
+    "answer": {
+      "en": "Yield to traffic and pedestrians; slow down and be ready to stop.",
+      "km": "ឲ្យ​ផ្លូវ​ចរាចរណ៍ និង​អ្នក​ថ្មើរជើង បន្ថយ​ល្បឿន និង​ត្រៀម​ឈប់។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Red downward-pointing triangle yield sign"
+  },
+  {
+    "id": "question-3",
+    "sprite": {
+      "page": 2,
+      "x": 114.954,
+      "y": 218.626,
+      "width": 57.663,
+      "height": 72.034
+    },
+    "question": "Speed limit meaning",
+    "prompt": {
+      "en": "What does this speed limit sign indicate?",
+      "km": "សញ្ញា​កំណត់​ល្បឿន​នេះ​បង្ហាញ​អ្វី?"
+    },
+    "answer": {
+      "en": "The maximum lawful speed here is 50 mph in ideal conditions.",
+      "km": "ល្បឿន​អតិបរមា​ត្រឹម ៥០ mph នៅ​ក្នុងលក្ខខណ្ឌ​ល្អ​បំផុត។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "White rectangular speed limit 50 sign"
+  },
+  {
+    "id": "question-9",
+    "sprite": {
+      "page": 2,
+      "x": 405.625,
+      "y": 221.402,
+      "width": 52.457,
+      "height": 66.773
+    },
+    "question": "Minimum speed meaning",
+    "prompt": {
+      "en": "What does this minimum speed sign indicate?",
+      "km": "សញ្ញាកំណត់​ល្បឿនអប្បបរមា​នេះ​បង្ហាញ​អ្វី?"
+    },
+    "answer": {
+      "en": "You must travel at least 40 mph when conditions allow; slower traffic should keep right.",
+      "km": "អ្នក​ត្រូវ​រក្សា​ល្បឿន​យ៉ាងហោចណាស់ ៤០ mph ប្រសិន​បើ​សុវត្ថិភាព ហើយ​ល្បឿនយឺត​ត្រូវចេញ​ស្តាំ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "White rectangular minimum speed 40 sign"
+  },
+  {
+    "id": "question-4",
+    "sprite": {
+      "page": 2,
+      "x": 186.083,
+      "y": 136.817,
+      "width": 60.604,
+      "height": 44.947
+    },
+    "question": "Yield to oncoming traffic",
+    "prompt": {
+      "en": "What does this plaque require?",
+      "km": "ស្លាកនេះមានន័យអ្វី?"
+    },
+    "answer": {
+      "en": "You must yield to vehicles coming toward you before proceeding.",
+      "km": "អ្នក​ត្រូវ​ឲ្យផ្លូវ​យានជំនិះ​ដែល​មកពីទិស​ផ្ទុយ មុននឹង​ឆ្លង​កាត់។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "White rectangular plaque reading TO ONCOMING TRAFFIC"
+  },
+  {
+    "id": "question-5",
+    "sprite": {
+      "page": 2,
+      "x": 256.330,
+      "y": 162.275,
+      "width": 63.051,
+      "height": 20.711
+    },
+    "question": "All-way stop",
+    "prompt": {
+      "en": "What does this plaque mean beneath a stop sign?",
+      "km": "ស្លាកក្រោមសញ្ញាចតនេះមានន័យដូចម្តេច?"
+    },
+    "answer": {
+      "en": "All approaches have stop signs; every driver must stop and proceed in turn.",
+      "km": "គ្រប់ទិសមានសញ្ញា​ឈប់។ អ្នកបើកបរទាំងអស់​ត្រូវ​ឈប់ ហើយចេញទៅតាមលំដាប់។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Red rectangular plaque reading ALL WAY"
+  },
+  {
+    "id": "question-6",
+    "sprite": {
+      "page": 2,
+      "x": 327.221,
+      "y": 117.580,
+      "width": 65.528,
+      "height": 65.524
+    },
+    "question": "Yield here to pedestrians",
+    "prompt": {
+      "en": "How should you respond at a crosswalk with this sign?",
+      "km": "តើអ្នកគួរធ្វើអ្វីនៅផ្លូវឆ្លងកាត់នេះ?"
+    },
+    "answer": {
+      "en": "Stop or yield at the arrow and allow pedestrians to cross.",
+      "km": "ឈប់ ឬ​ឲ្យផ្លូវនៅព្រួញ ហើយអនុញ្ញាត​ឲ្យអ្នកថ្មើរជើងឆ្លង។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Square sign showing a yield symbol above words HERE TO with arrow toward pedestrian"
+  },
+  {
+    "id": "question-7",
+    "sprite": {
+      "page": 2,
+      "x": 490.517,
+      "y": 103.287,
+      "width": 26.707,
+      "height": 79.762
+    },
+    "question": "In-street crosswalk yield",
+    "prompt": {
+      "en": "What does this in-street sign instruct drivers?",
+      "km": "សញ្ញានេះបញ្ជាអ្វីទៅអ្នកបើកបរ?"
+    },
+    "answer": {
+      "en": "State law requires you to yield to pedestrians within the crosswalk.",
+      "km": "ច្បាប់រដ្ឋ​បញ្ជា​ឲ្យអ្នក​ឲ្យផ្លូវ​អ្នកថ្មើរជើង​ក្នុងផ្លូវឆ្លងកាត់។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Tall yellow in-street sign stating state law yield to pedestrians within crosswalk"
+  },
+  {
+    "id": "question-8",
+    "sprite": {
+      "page": 2,
+      "x": 625.219,
+      "y": 101.301,
+      "width": 117.141,
+      "height": 30.516
+    },
+    "question": "Yield to pedestrians",
+    "prompt": {
+      "en": "What does this roadway sign mean?",
+      "km": "សញ្ញាផ្លូវនេះមានន័យអ្វី?"
+    },
+    "answer": {
+      "en": "You must yield to pedestrians in the crosswalk.",
+      "km": "អ្នក​ត្រូវ​ឲ្យផ្លូវអ្នកថ្មើរជើង​នៅផ្លូវឆ្លងកាត់។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Horizontal yellow and white sign reading state law yield to pedestrians with walking icons"
+  },
+  {
+    "id": "question-10",
+    "sprite": {
+      "page": 2,
+      "x": 689.762,
+      "y": 244.027,
+      "width": 61.402,
+      "height": 45.559
+    },
+    "question": "Work zone fine warning",
+    "prompt": {
+      "en": "What does this $150 fine sign mean in work zones?",
+      "km": "សញ្ញាផាកពិន័យ $150 នេះមានន័យដូចម្តេចនៅតំបន់កំពុងជួសជុល?"
+    },
+    "answer": {
+      "en": "Violations in the work zone carry a $150 fine.",
+      "km": "ការបំពានច្បាប់ក្នុងតំបន់កំពុងជួសជុល​នឹងត្រូវផាកពិន័យ $150។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "White rectangular sign reading $150 FINE"
+  },
+  {
+    "id": "question-11",
+    "sprite": {
+      "page": 2,
+      "x": 258.220,
+      "y": 336.997,
+      "width": 60.604,
+      "height": 60.615
+    },
+    "question": "No right turn",
+    "prompt": {
+      "en": "What does this red circle with slash indicate?",
+      "km": "សញ្ញាវង់ក្រហមមានខ្សែបន្ទាត់ឆ្លងនេះ​មានន័យអ្វី?"
+    },
+    "answer": {
+      "en": "Right turns are prohibited at this location.",
+      "km": "ហាមបត់ស្តាំ​នៅទីតាំងនេះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Prohibition symbol over right turn arrow"
+  },
+  {
+    "id": "question-12",
+    "sprite": {
+      "page": 2,
+      "x": 401.313,
+      "y": 336.997,
+      "width": 60.604,
+      "height": 60.615
+    },
+    "question": "No left turn",
+    "prompt": {
+      "en": "What does this sign prohibit?",
+      "km": "សញ្ញានេះហាមអ្វី?"
+    },
+    "answer": {
+      "en": "Left turns are prohibited at this intersection.",
+      "km": "ហាមបត់ឆ្វេង​នៅចំណុចនេះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Prohibition symbol over left turn arrow"
+  },
+  {
+    "id": "question-13",
+    "sprite": {
+      "page": 2,
+      "x": 545.091,
+      "y": 336.997,
+      "width": 60.600,
+      "height": 60.615
+    },
+    "question": "No turns",
+    "prompt": {
+      "en": "What does this sign mean?",
+      "km": "សញ្ញានេះមានន័យអ្វី?"
+    },
+    "answer": {
+      "en": "No turns are permitted here.",
+      "km": "មិនអនុញ្ញាត​ឲ្យបត់ទិសណាមួយ​នៅទីនេះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "White square sign reading NO TURNS"
+  },
+  {
+    "id": "question-14",
+    "sprite": {
+      "page": 2,
+      "x": 617.809,
+      "y": 337.001,
+      "width": 60.604,
+      "height": 60.612
+    },
+    "question": "No U-turn",
+    "prompt": {
+      "en": "What does this sign prohibit?",
+      "km": "សញ្ញានេះហាមអ្វី?"
+    },
+    "answer": {
+      "en": "U-turns are not allowed here.",
+      "km": "ហាម​វិល​ក្រោយ​នៅទីនេះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Prohibition symbol over U-turn arrow"
+  },
+  {
+    "id": "question-15",
+    "sprite": {
+      "page": 2,
+      "x": 42.330,
+      "y": 435.818,
+      "width": 58.668,
+      "height": 69.993
+    },
+    "question": "Left turn only",
+    "prompt": {
+      "en": "What movement is allowed from this lane?",
+      "km": "ពីគន្លងនេះអនុញ្ញាត​ឲ្យទៅទិសណា?"
+    },
+    "answer": {
+      "en": "You must make a left turn only.",
+      "km": "អ្នក​ត្រូវ​បត់ឆ្វេង​ប៉ុណ្ណោះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign showing left turn only arrow"
+  },
+  {
+    "id": "question-16",
+    "sprite": {
+      "page": 2,
+      "x": 114.947,
+      "y": 435.818,
+      "width": 58.668,
+      "height": 69.993
+    },
+    "question": "Thru only",
+    "prompt": {
+      "en": "What movement is allowed from this lane?",
+      "km": "ពីគន្លងនេះអនុញ្ញាត​ឲ្យទៅទិសណា?"
+    },
+    "answer": {
+      "en": "You must proceed straight through only.",
+      "km": "អ្នក​ត្រូវ​ទៅត្រង់​ប៉ុណ្ណោះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign with upward arrow only"
+  },
+  {
+    "id": "question-17",
+    "sprite": {
+      "page": 2,
+      "x": 402.455,
+      "y": 435.619,
+      "width": 58.664,
+      "height": 69.996
+    },
+    "question": "Left or thru",
+    "prompt": {
+      "en": "What movements are allowed from this lane?",
+      "km": "ពីគន្លងនេះអាចទៅទិសណាបាន?"
+    },
+    "answer": {
+      "en": "You may go straight or turn left.",
+      "km": "អ្នក​អាច​ទៅត្រង់ ឬ​បត់ឆ្វេង។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign with straight or left turn arrows"
+  },
+  {
+    "id": "question-18",
+    "sprite": {
+      "page": 2,
+      "x": 474.220,
+      "y": 444.798,
+      "width": 60.604,
+      "height": 60.619
+    },
+    "question": "Right lane must turn right",
+    "prompt": {
+      "en": "What does this lane control sign direct?",
+      "km": "សញ្ញាគ្រប់គ្រងគន្លងនេះ​បញ្ជាអ្វី?"
+    },
+    "answer": {
+      "en": "Drivers in the right lane must make a right turn.",
+      "km": "អ្នកបើកបរ​នៅគន្លង​ស្តាំ​ត្រូវ​បត់ស្តាំ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Sign reading RIGHT LANE MUST TURN RIGHT"
+  },
+  {
+    "id": "question-19",
+    "sprite": {
+      "page": 2,
+      "x": 545.947,
+      "y": 445.025,
+      "width": 60.395,
+      "height": 60.559
+    },
+    "question": "Left turn only / Thru",
+    "prompt": {
+      "en": "What do these lane arrows indicate?",
+      "km": "ព្រួញគន្លងទាំងនេះ​បង្ហាញអ្វី?"
+    },
+    "answer": {
+      "en": "Left lane must turn left; right lane may go straight or turn right.",
+      "km": "គន្លងឆ្វេង​ត្រូវ​បត់ឆ្វេង; គន្លង​ស្តាំ​អាច​ទៅត្រង់ ឬ​បត់ស្តាំ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign showing left turn only and straight or right arrows"
+  },
+  {
+    "id": "question-20",
+    "sprite": {
+      "page": 2,
+      "x": 617.013,
+      "y": 467.853,
+      "width": 61.686,
+      "height": 38.111
+    },
+    "question": "Left and thru lanes",
+    "prompt": {
+      "en": "What lane uses are shown here?",
+      "km": "គន្លងទាំងនេះអនុញ្ញាតឲ្យធ្វើចលនាអ្វី?"
+    },
+    "answer": {
+      "en": "Left lane must turn left; center lane may go straight; right lane must turn right.",
+      "km": "គន្លងឆ្វេង​ត្រូវ​បត់ឆ្វេង; គន្លងកណ្ដាល​អាច​ទៅត្រង់; គន្លងស្តាំ​ត្រូវ​បត់ស្តាំ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign with left-only, thru, and right-only arrows"
+  },
+  {
+    "id": "question-21",
+    "sprite": {
+      "page": 2,
+      "x": 689.142,
+      "y": 467.853,
+      "width": 61.686,
+      "height": 38.111
+    },
+    "question": "Multiple turn lanes",
+    "prompt": {
+      "en": "What lane uses are shown here?",
+      "km": "គន្លងទាំងនេះអនុញ្ញាតឲ្យធ្វើចលនាអ្វី?"
+    },
+    "answer": {
+      "en": "Left lane must turn left; center lane must go straight; right lane must turn right.",
+      "km": "គន្លងឆ្វេង​ត្រូវ​បត់ឆ្វេង; គន្លងកណ្ដាល​ត្រូវ​ទៅត្រង់; គន្លងស្តាំ​ត្រូវ​បត់ស្តាំ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign with left-only, straight-only, and right-only arrows"
+  },
+   {
+    "id": "question-22",
+    "sprite": {
+      "page": 2,
+      "x": 41.806,
+      "y": 543.599,
+      "width": 58.688,
+      "height": 70.016
+    },
+    "question": "Left turn only",
+    "prompt": {
+      "en": "What movement is allowed from this lane?",
+      "km": "ពីគន្លងនេះអនុញ្ញាត​ឲ្យទៅទិសណា?"
+    },
+    "answer": {
+      "en": "You must make a left turn only.",
+      "km": "អ្នក​ត្រូវ​បត់ឆ្វេង​ប៉ុណ្ណោះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Lane control sign showing left turn only arrows with ONLY text"
+  },
+  {
+    "id": "question-23",
+    "sprite": {
+      "page": 2,
+      "x": 191.609,
+      "y": 543.414,
+      "width": 49.707,
+      "height": 70.301
+    },
+    "question": "Center lane restriction",
+    "prompt": {
+      "en": "When may you use the center lane?",
+      "km": "តើពេលណាអ្នកអាចប្រើគន្លងកណ្ដាលនេះ?"
+    },
+    "answer": {
+      "en": "Do not use the center lane 7–9 AM, Monday–Friday.",
+      "km": "កុំប្រើគន្លងកណ្ដាល ពេលម៉ោង ៧–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Center lane do not use 7-9 AM Mon-Fri sign"
+  },
+  {
+    "id": "question-24",
+    "sprite": {
+      "page": 2,
+      "x": 262.730,
+      "y": 543.316,
+      "width": 49.867,
+      "height": 70.473
+    },
+    "question": "HOV left lane only",
+    "prompt": {
+      "en": "Who may use this left lane and when?",
+      "km": "នរណាអាចប្រើគន្លងឆ្វេងនេះ ហើយពេលណា?"
+    },
+    "answer": {
+      "en": "Only HOV 2+ vehicles may use the left lane 6 AM–9 AM, Monday–Friday.",
+      "km": "តែរថយន្ត HOV ២ ឬច្រើនជាងនេះប៉ុណ្ណោះ អាចប្រើគន្លងឆ្វេង ពេលម៉ោង ៦–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Left lane HOV 2+ only 6AM-9AM Mon-Fri sign"
+  },
+  {
+    "id": "question-25",
+    "sprite": {
+      "page": 2,
+      "x": 335.348,
+      "y": 543.316,
+      "width": 49.871,
+      "height": 70.473
+    },
+    "question": "Right lane buses only",
+    "prompt": {
+      "en": "Who may use the right lane and when?",
+      "km": "នរណាអាចប្រើគន្លងស្តាំនេះ ហើយពេលណា?"
+    },
+    "answer": {
+      "en": "Only buses may use the right lane 6 AM–9 AM, Monday–Friday.",
+      "km": "តែរថយន្តក្រុងប៉ុណ្ណោះ អាចប្រើគន្លងស្តាំ ពេលម៉ោង ៦–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Right lane buses only 6AM-9AM Mon-Fri sign"
+  },
+  {
+    "id": "question-26",
+    "sprite": {
+      "page": 2,
+      "x": 406.852,
+      "y": 543.312,
+      "width": 49.871,
+      "height": 70.477
+    },
+    "question": "HOV lane ahead",
+    "prompt": {
+      "en": "What does this HOV sign warn?",
+      "km": "សញ្ញា HOV នេះព្រមានអ្វី?"
+    },
+    "answer": {
+      "en": "A carpool (HOV 2+) lane is ahead.",
+      "km": "មាន​គន្លង​រថយន្តមូលហ៊ុម (HOV ២+) នៅមុខ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV 2+ lane ahead sign with diamond symbol"
+  },
+  {
+    "id": "question-27",
+    "sprite": {
+      "page": 2,
+      "x": 479.344,
+      "y": 543.312,
+      "width": 49.875,
+      "height": 70.477
+    },
+    "question": "HOV lane ends",
+    "prompt": {
+      "en": "What does this HOV sign indicate?",
+      "km": "សញ្ញា HOV នេះ​បង្ហាញអ្វី?"
+    },
+    "answer": {
+      "en": "The HOV lane ends ahead.",
+      "km": "គន្លង HOV នឹង​បញ្ចប់​នៅមុខ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV lane ends sign with diamond symbol"
+  },
+  {
+    "id": "question-28",
+    "sprite": {
+      "page": 2,
+      "x": 551.930,
+      "y": 545.383,
+      "width": 48.426,
+      "height": 68.430
+    },
+    "question": "HOV lane ends 1/2 mile",
+    "prompt": {
+      "en": "What does this sign tell HOV drivers?",
+      "km": "សញ្ញានេះប្រាប់អ្នកបើកបរ HOV យ៉ាងដូចម្តេច?"
+    },
+    "answer": {
+      "en": "The HOV lane ends in one half mile.",
+      "km": "គន្លង HOV នឹង​បញ្ចប់​នៅចម្ងាយ​ពាក់កណ្តាល​ម៉ាយ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV lane ends 1/2 mile sign with diamond symbol"
+  },
+  {
+    "id": "question-29",
+    "sprite": {
+      "page": 2,
+      "x": 118.938,
+      "y": 653.383,
+      "width": 48.426,
+      "height": 68.430
+    },
+    "question": "Bus lane ahead",
+    "prompt": {
+      "en": "What does this sign tell you about the lane ahead?",
+      "km": "សញ្ញានេះប្រាប់អ្វីអំពីគន្លងខាងមុខ?"
+    },
+    "answer": {
+      "en": "A bus lane is ahead.",
+      "km": "មានគន្លង​រថយន្តក្រុង​នៅមុខ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Vertical sign reading BUS LANE AHEAD"
+  },
+  {
+    "id": "question-30",
+    "sprite": {
+      "page": 2,
+      "x": 191.430,
+      "y": 652.656,
+      "width": 48.883,
+      "height": 69.109
+    },
+    "question": "Bus lane ends",
+    "prompt": {
+      "en": "What does this sign tell you about the bus lane?",
+      "km": "សញ្ញានេះប្រាប់អ្វីអំពីគន្លងរថយន្តក្រុង?"
+    },
+    "answer": {
+      "en": "The bus lane ends ahead.",
+      "km": "គន្លង​រថយន្តក្រុង​នឹង​បញ្ចប់​នៅមុខ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Vertical sign reading BUS LANE ENDS"
+  },
+  {
+    "id": "question-31",
+    "sprite": {
+      "page": 2,
+      "x": 328.320,
+      "y": 688.344,
+      "width": 68.688,
+      "height": 33.473
+    },
+    "question": "HOV 2+ only",
+    "prompt": {
+      "en": "Who may use this lane?",
+      "km": "នរណាអាចប្រើគន្លងនេះ?"
+    },
+    "answer": {
+      "en": "Only vehicles with 2 or more occupants may use this lane.",
+      "km": "តែរថយន្ត​ដែលមាន​អ្នកអង្គុយ​ពីរ​ឬ​ច្រើនជាងនេះ​ប៉ុណ្ណោះ​អាចប្រើគន្លងនេះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Horizontal HOV 2+ only sign"
+  },
+  {
+    "id": "question-32",
+    "sprite": {
+      "page": 2,
+      "x": 400.582,
+      "y": 687.953,
+      "width": 63.398,
+      "height": 33.855
+    },
+    "question": "HOV 2+ only (time limited)",
+    "prompt": {
+      "en": "Who may use this lane and when?",
+      "km": "នរណាអាចប្រើគន្លងនេះ និងពេលណា?"
+    },
+    "answer": {
+      "en": "Only vehicles with 2 or more occupants may use this lane 6 AM–9 AM, Monday–Friday.",
+      "km": "តែរថយន្ត​មាន​អ្នកអង្គុយ​ពីរ​ឬ​ច្រើនជាងនេះ​ប៉ុណ្ណោះ អាចប្រើគន្លងនេះ ពេលម៉ោង ៦–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Horizontal HOV 2+ only with hours sign"
+  },
+  {
+    "id": "question-33",
+    "sprite": {
+      "page": 2,
+      "x": 472.594,
+      "y": 674.883,
+      "width": 62.383,
+      "height": 46.398
+    },
+    "question": "HOV 2+ only ahead",
+    "prompt": {
+      "en": "What does this overhead sign indicate?",
+      "km": "សញ្ញាខាងលើនេះ​បង្ហាញអ្វី?"
+    },
+    "answer": {
+      "en": "HOV 2+ only ahead; 6 AM–9 AM, Monday–Friday.",
+      "km": "មាន​គន្លង HOV ២+ តែប៉ុណ្ណោះ​នៅមុខ ពេលម៉ោង ៦–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV 2+ only 6AM-9AM Mon-Fri with downward arrow"
+  },
+  {
+    "id": "question-34",
+    "sprite": {
+      "page": 2,
+      "x": 542.738,
+      "y": 665.699,
+      "width": 67.082,
+      "height": 55.641
+    },
+    "question": "HOV 2+ only hours",
+    "prompt": {
+      "en": "Who may use this lane and at what times?",
+      "km": "នរណាអាចប្រើគន្លងនេះ និងម៉ោងណា?"
+    },
+    "answer": {
+      "en": "Only vehicles with 2+ occupants may use this lane 6:30 AM–9:30 AM, Monday–Friday.",
+      "km": "តែរថយន្ត​មាន​អ្នកអង្គុយ​ពីរ ឬ​ច្រើនជាងនេះ​ប៉ុណ្ណោះ អាចប្រើគន្លងនេះ ពេលម៉ោង ៦:៣០–៩:៣០ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV 2+ only 6:30AM-9:30AM Mon-Fri with downward arrow"
+  },
+  {
+    "id": "question-35",
+    "sprite": {
+      "page": 2,
+      "x": 614.863,
+      "y": 668.348,
+      "width": 66.562,
+      "height": 53.113
+    },
+    "question": "HOV 2+ only lane",
+    "prompt": {
+      "en": "What does this sign designate?",
+      "km": "សញ្ញានេះ​កំណត់អ្វី?"
+    },
+    "answer": {
+      "en": "This lane is for HOV 2+ vehicles only.",
+      "km": "គន្លងនេះ​សម្រាប់​រថយន្ត HOV ២+ ប៉ុណ្ណោះ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "HOV 2+ only lane with downward arrow"
+  },
+  {
+    "id": "question-36",
+    "sprite": {
+      "page": 2,
+      "x": 686.926,
+      "y": 680.816,
+      "width": 65.859,
+      "height": 40.773
+    },
+    "question": "Buses and taxis only",
+    "prompt": {
+      "en": "Who may use this lane and when?",
+      "km": "នរណាអាចប្រើគន្លងនេះ និងពេលណា?"
+    },
+    "answer": {
+      "en": "Only buses and taxis may use this lane 6 AM–9 AM, Monday–Friday.",
+      "km": "តែរថយន្តក្រុង និងតាក់ស៊ីប៉ុណ្ណោះ អាចប្រើគន្លងនេះ ពេលម៉ោង ៦–៩ ព្រឹក ចន្ទ–សុក្រ។"
+    },
+    "image": "/assets/road-signs/dl-37-2.png",
+    "alt": "Buses - taxis only 6AM-9AM Mon-Fri with downward arrow"
+  }
+]

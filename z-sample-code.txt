@@ -1,0 +1,36 @@
+// signMap.js
+export const signMap = {
+  yield: { page: 1, x: 400, y: 220, width: 120, height: 120 },
+  stop:  { page: 1, x: 560, y: 220, width: 120, height: 120 }
+  // ...
+};
+
+// RoadSign.jsx
+import { signMap } from "./signMap";
+
+const PAGE_IMAGES = {
+  1: "/img/roadsigns-page1.png",
+  2: "/img/roadsigns-page2.png"
+};
+
+export function RoadSign({ id, size = 120 }) {
+  const sign = signMap[id];
+  if (!sign) return <span>Unknown sign: {id}</span>;
+
+  const spriteWidth = 2000;  // actual width of full sheet
+  const spriteHeight = 3000; // actual height of full sheet
+
+  const style = {
+    width: size,
+    height: size,
+    backgroundImage: `url(${PAGE_IMAGES[sign.page]})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: `${spriteWidth}px ${spriteHeight}px`,
+    backgroundPosition: `-${sign.x}px -${sign.y}px`
+  };
+
+  return <div style={style} aria-label={id} />;
+}
+
+<RoadSign id="yield" size={150} />
+<RoadSign id="stop" size={100} />
