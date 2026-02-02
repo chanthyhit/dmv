@@ -1,14 +1,11 @@
-type TopNavProps = {
-  currentPage?: 'home' | 'docs'
-  onNavigate?: (page: 'home' | 'docs') => void
-}
+import { NavLink } from 'react-router-dom'
 
 const navLinks = [
-  { label: 'Dashboard', key: 'home' as const },
-  { label: 'Docs', key: 'docs' as const },
+  { label: 'Dashboard', path: '/' },
+  { label: 'Docs', path: '/docs' },
 ]
 
-const TopNav = ({ currentPage = 'home', onNavigate }: TopNavProps) => {
+const TopNav = () => {
   return (
     <header className="sticky top-0 z-10 border-b border-slate-800/70 bg-slate-950/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
@@ -27,28 +24,20 @@ const TopNav = ({ currentPage = 'home', onNavigate }: TopNavProps) => {
         <div className="flex items-center gap-3">
           <nav className="hidden gap-3 text-sm text-slate-300 md:flex">
             {navLinks.map((link) => (
-              <button
-                key={link.key}
-                type="button"
-                onClick={() => onNavigate?.(link.key)}
-                className={`rounded-lg px-3 py-2 transition ${
-                  currentPage === link.key
-                    ? 'bg-slate-800/80 text-white'
-                    : 'hover:bg-slate-800/60 hover:text-white'
-                }`}
+              <NavLink
+                key={link.path}
+                to={link.path}
+                className={({ isActive }) =>
+                  `rounded-lg px-3 py-2 transition ${
+                    isActive ? 'bg-slate-800/80 text-white' : 'hover:bg-slate-800/60 hover:text-white'
+                  }`
+                }
+                end={link.path === '/'}
               >
                 {link.label}
-              </button>
+              </NavLink>
             ))}
           </nav>
-
-          <button
-            type="button"
-            className="rounded-lg bg-gradient-to-r from-brand to-brand-accent px-4 py-2 text-sm font-semibold text-slate-950 shadow-elevated transition hover:opacity-95"
-            onClick={() => onNavigate?.('docs')}
-          >
-            Docs
-          </button>
         </div>
       </div>
     </header>
