@@ -183,13 +183,13 @@ const DocumentsPage = () => {
             className="flex flex-col gap-4 rounded-2xl border border-slate-800/80 bg-card/80 p-6 shadow-elevated lg:flex-row lg:items-start lg:justify-between"
           >
             <div className="space-y-2">
-              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.question}</p>
+              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.category}</p>
               <div className="flex items-center gap-2">
                 <h2 className="text-xl font-semibold text-white">{item.prompt.en}</h2>
                 <button
                   type="button"
                   onClick={() => speakText(item.prompt.en)}
-                  aria-label={`Play prompt for ${item.question}`}
+                  aria-label={`Play prompt for ${item.category}`}
                   className="rounded-full border border-slate-700/80 bg-slate-900/70 px-3 py-1 text-xs font-semibold text-slate-200 transition hover:border-brand hover:text-white"
                 >
                   ▶︎
@@ -211,7 +211,7 @@ const DocumentsPage = () => {
               </div>
               {item.answer.km ? <p className="text-base text-slate-200">{item.answer.km}</p> : null}
             </div>
-            <div className="flex h-40 w-40 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border-slate-700">
+            <div className="flex h-40 w-40 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-700">
               <RoadSign sprite={item.sprite} size={150} ariaLabel={item.alt} className="h-full w-full" />
             </div>
           </article>

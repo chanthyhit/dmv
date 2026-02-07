@@ -1,6 +1,6 @@
 import type { CSSProperties } from 'react'
 
-import { SPRITE_PAGES, SPRITE_SHEET_DIMENSIONS, type SignSprite } from '@/data/signs'
+import { SPRITE_PAGES, type SignSprite } from '@/data/signs'
 
 type RoadSignProps = {
   sprite?: SignSprite
@@ -42,9 +42,9 @@ const RoadSign = ({ sprite, size = 120, ariaLabel, className }: RoadSignProps) =
   const style: CSSProperties = {
     width: sprite.width * scale,
     height: sprite.height * scale,
-    backgroundImage: `url(${pageSource})`,
+    backgroundImage: `url(${pageSource.src})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: `${SPRITE_SHEET_DIMENSIONS.width * scale}px ${SPRITE_SHEET_DIMENSIONS.height * scale}px`,
+    backgroundSize: `${pageSource.width * scale}px ${pageSource.height * scale}px`,
     backgroundPosition: `-${sprite.x * scale}px -${sprite.y * scale}px`,
   }
 
