@@ -14,6 +14,7 @@ const DocumentsPage = () => {
   const exportRef = useRef<HTMLDivElement | null>(null)
 
   const ITEMS_PER_PAGE_OPTIONS = [5, 10, 15, 20]
+  const EXPORT_ITEMS_PER_PAGE = 4
 
   const totalPages = Math.max(1, Math.ceil(items.length / itemsPerPage))
   const currentRangeStart = items.length ? (currentPage - 1) * itemsPerPage + 1 : 0
@@ -34,6 +35,14 @@ const DocumentsPage = () => {
     () => Array.from({ length: totalPages }, (_, index) => index + 1),
     [totalPages],
   )
+
+  const exportPages = useMemo(() => {
+    const pages: SignItem[][] = []
+    for (let index = 0; index < items.length; index += EXPORT_ITEMS_PER_PAGE) {
+      pages.push(items.slice(index, index + EXPORT_ITEMS_PER_PAGE))
+    }
+    return pages
+  }, [items])
 
   const goToPage = (page: number) => {
     const clampedPage = Math.min(Math.max(page, 1), totalPages)
@@ -158,26 +167,30 @@ const DocumentsPage = () => {
       setIsExporting(true)
       await new Promise((resolve) => setTimeout(resolve, 100))
 
-      const canvas = await html2canvas(exportRef.current, {
-        scale: 2,
-        useCORS: true,
-        backgroundColor: '#ffffff',
-      })
-      const imgData = canvas.toDataURL('image/png')
       const pdf = new jsPDF('p', 'pt', 'letter')
       const pageWidth = pdf.internal.pageSize.getWidth()
       const pageHeight = pdf.internal.pageSize.getHeight()
-      const imgProps = pdf.getImageProperties(imgData)
-      const imgWidth = pageWidth
-      const imgHeight = (imgProps.height * imgWidth) / imgProps.width
+      const pageNodes = Array.from(
+        exportRef.current.querySelectorAll<HTMLElement>('[data-export-page]'),
+      )
 
-      let yOffset = 0
-      while (yOffset < imgHeight) {
-        pdf.addImage(imgData, 'PNG', 0, -yOffset, imgWidth, imgHeight)
-        yOffset += pageHeight
-        if (yOffset < imgHeight) {
+      for (let index = 0; index < pageNodes.length; index += 1) {
+        const pageNode = pageNodes[index]
+        const canvas = await html2canvas(pageNode, {
+          scale: 2,
+          useCORS: true,
+          backgroundColor: '#ffffff',
+        })
+        const imgData = canvas.toDataURL('image/png')
+        const imgProps = pdf.getImageProperties(imgData)
+        const imgWidth = pageWidth
+        const imgHeight = (imgProps.height * imgWidth) / imgProps.width
+
+        if (index > 0) {
           pdf.addPage()
         }
+
+        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight)
       }
 
       pdf.save('traffic-signs.pdf')
@@ -234,7 +247,7 @@ const DocumentsPage = () => {
             className="flex flex-col gap-4 rounded-2xl border border-slate-800/80 bg-card/80 p-6 shadow-elevated lg:flex-row lg:items-start lg:justify-between"
           >
             <div className="space-y-2">
-              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.category}</p>
+              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.id}. {item.alt}</p>
               <div className="flex items-center gap-2">
                 <h2 className="text-xl font-semibold text-white">{item.prompt.en}</h2>
                 <button
@@ -246,21 +259,21 @@ const DocumentsPage = () => {
                   ▶︎
                 </button>
               </div>
-              {item.prompt.km ? (
-                <h2 className="text-xl font-semibold text-white">{item.prompt.km}</h2>
+              {item.prompt.kh ? (
+                <h2 className="text-xl font-semibold text-white">{item.prompt.kh}</h2>
               ) : null}
               <div className="flex items-center gap-2">
                 <p className="text-base text-slate-200">{item.answer.en}</p>
                 <button
                   type="button"
                   onClick={() => speakText(item.answer.en)}
-                  aria-label={`Play answer for ${item.question}`}
+                  aria-label={`Play answer for ${item.category}`}
                   className="rounded-full border border-slate-700/80 bg-slate-900/70 px-3 py-1 text-xs font-semibold text-slate-200 transition hover:border-brand hover:text-white"
                 >
                   ▶︎
                 </button>
               </div>
-              {item.answer.km ? <p className="text-base text-slate-200">{item.answer.km}</p> : null}
+              {item.answer.kh ? <p className="text-xl text-slate-200">{item.answer.kh}</p> : null}
             </div>
             <div className="flex h-40 w-40 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-700">
               <RoadSign sprite={item.sprite} size={150} ariaLabel={item.alt} className="h-full w-full" />
@@ -272,46 +285,54 @@ const DocumentsPage = () => {
       <PaginationControls />
 
       <div className="fixed left-0 top-0 -z-10 opacity-0 pointer-events-none">
-        <div
-          ref={exportRef}
-          style={{ width: '816px' }}
-          className="space-y-6 bg-white px-8 py-10 text-black"
-        >
-          <div className="space-y-2">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-black">
-              Document Library
-            </p>
-            <h1 className="text-3xl font-bold text-black">Traffic sign quick reference</h1>
-            <p className="text-sm text-black">
-              Exported on {new Date().toLocaleDateString('en-US')}
-            </p>
-          </div>
-          <div className="space-y-6">
-            {items.map((item) => (
-              <article
-                key={`export-${item.id}`}
-                className="flex gap-4 rounded-2xl border border-black/10 bg-white p-6"
-              >
-                <div className="space-y-2">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-black">
-                    {item.category}
-                  </p>
-                  <h2 className="text-lg font-semibold text-black">{item.prompt.en}</h2>
-                  {item.prompt.km ? <p className="text-lg text-black">{item.prompt.km}</p> : null}
-                  <p className="text-sm text-black">{item.answer.en}</p>
-                  {item.answer.km ? <p className="text-sm text-black">{item.answer.km}</p> : null}
-                </div>
-                <div className="ml-auto flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border border-black/10 bg-white">
-                  <RoadSign
-                    sprite={item.sprite}
-                    size={110}
-                    ariaLabel={item.alt}
-                    className="h-full w-full"
-                  />
-                </div>
-              </article>
-            ))}
-          </div>
+        <div ref={exportRef} className="space-y-8 bg-white text-black">
+          {exportPages.map((pageItems, pageIndex) => (
+            <div
+              key={`export-page-${pageIndex}`}
+              data-export-page
+              style={{ width: '816px', minHeight: '1056px' }}
+              className="box-border space-y-6 bg-white px-8 pt-4 pb-12 text-black"
+            >
+              <div className={`space-y-2 ${pageIndex === 0 ? '' : 'invisible'}`}>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-black">
+                  Document Library
+                </p>
+                <h1 className="text-3xl font-bold text-black">Traffic sign quick reference</h1>
+                <p className="text-sm text-black">
+                  Exported on {new Date().toLocaleDateString('en-US')}
+                </p>
+              </div>
+              <div className="space-y-6">
+                {pageItems.map((item) => (
+                  <article
+                    key={`export-${item.id}`}
+                    className="flex gap-4 rounded-2xl border border-black/10 bg-white p-6"
+                  >
+                    <div className="space-y-2">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-black">
+                        {item.id}. {item.category} [{item.alt}]
+                      </p>
+                      <h2 className="text-lg text-black">{item.prompt.en}</h2>
+                      {item.prompt.kh ? <p className="text-xl text-black">{item.prompt.kh}</p> : null}
+                      <p className="text-lg text-black">{item.answer.en}</p>
+                      {item.answer.kh ? <p className="text-xl text-black">{item.answer.kh}</p> : null}
+                    </div>
+                    <div className="ml-auto flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border-black/10 bg-white">
+                      <RoadSign
+                        sprite={item.sprite}
+                        size={110}
+                        ariaLabel={item.alt}
+                        className="h-full w-full"
+                      />
+                    </div>
+                  </article>
+                ))}
+              </div>
+              <div className="pt-2 text-right text-xs text-black/70">
+                {pageIndex + 1}/{exportPages.length}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
