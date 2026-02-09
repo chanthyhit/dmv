@@ -110,7 +110,7 @@
     },
     "answer": {
       "en": "The road ahead is winding.",
-      "kh": "ផ្លូវខាងមុខមានការខ្ជិលខ្ជាប់។"
+      "kh": "ផ្លូវខាងមុខមានរាងអន្ទង់អាំង។"
     },
     "alt": "Winding road ahead sign",
     "category": "Warning",
@@ -629,14 +629,14 @@
       "height": 91.177
     },
     "answer": {
-      "en": "U-turns are not allowed.",
-      "kh": "មិនអនុញ្ញាតឲ្យបត់ត្រឡប់ក្រោយ (U-turn)។"
+      "en": "A U-turn may be expected ahead, especially for trucks.",
+      "kh": "មានលក្ខខណ្ឌឲ្យរថយន្តធំបត់ត្រឡប់ក្រោយនៅខាងមុខ។"
     },
-    "alt": "No U-turn sign",
+    "alt": "Truck U-turn ahead warning sign",
     "category": "Warning",
     "question": {
-      "en": "What maneuver is prohibited?",
-      "kh": "ការធ្វើចលនាអ្វីត្រូវបានហាមឃាត់?"
+      "en": "What maneuver may be required ahead?",
+      "kh": "នៅខាងមុខអាចត្រូវធ្វើចលនាអ្វី?"
     }
   },
   {
@@ -649,14 +649,14 @@
       "height": 91.222
     },
     "answer": {
-      "en": "A T-intersection is ahead.",
-      "kh": "មានចំណុចប្រសព្វទ្រង់ទ្រាយ T នៅខាងមុខ។"
+      "en": "A U-turn is ahead.",
+      "kh": "មានការបត់ត្រឡប់ក្រោយ (U-turn) នៅខាងមុខ។"
     },
-    "alt": "T-intersection ahead sign",
+    "alt": "U-turn ahead warning sign",
     "category": "Warning",
     "question": {
-      "en": "What type of intersection is ahead?",
-      "kh": "មានចំណុចប្រសព្វប្រភេទណានៅខាងមុខ?"
+      "en": "What turn is ahead?",
+      "kh": "មានការបត់អ្វីនៅខាងមុខ?"
     }
   },
   {
@@ -710,7 +710,7 @@
     },
     "answer": {
       "en": "You must come to a complete stop.",
-      "kh": "អ្នកត្រូវឈប់ពេញលេញ។"
+      "kh": "អ្នកត្រូវឈប់អោយកង់ឈប់វឹល។"
     },
     "alt": "Stop sign",
     "category": "Regulatory",

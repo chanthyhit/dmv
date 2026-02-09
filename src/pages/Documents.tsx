@@ -292,15 +292,9 @@ const DocumentsPage = () => {
               className="box-border space-y-6 bg-white px-8 pt-4 pb-12 text-black"
             >
               <div className={`space-y-2 ${pageIndex === 0 ? '' : 'invisible'}`}>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-black">
-                  Document Library
-                </p>
                 <h1 className="text-3xl font-bold text-black">Traffic sign quick reference</h1>
-                <p className="text-sm text-black">
-                  Exported on {new Date().toLocaleDateString('en-US')}
-                </p>
               </div>
-              <div className="space-y-6">
+              <div className="space-y-4">
                 {pageItems.map((item) => (
                   <article
                     key={`export-${item.id}`}
