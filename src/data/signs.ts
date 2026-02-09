@@ -2,7 +2,7 @@ import signData from './data.json' assert { type: 'json' }
 
 export type LocalizedText = {
   en: string
-  km?: string
+  kh?: string
 }
 
 export type SignSprite = {
@@ -14,10 +14,9 @@ export type SignSprite = {
 }
 
 export type SignItem = {
-  id: string
+  id: number
   sprite: SignSprite
-  question: string
-  prompt: LocalizedText
+  question: LocalizedText
   answer: LocalizedText
   alt: string
   category: string

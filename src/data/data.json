@@ -1,6 +1,6 @@
 [
   {
-    "id": "question-37",
+    "id": 1,
     "sprite": {
       "page": 17,
       "x": 39.482,
@@ -8,83 +8,975 @@
       "width": 92.465,
       "height": 91.207
     },
-    "question": "Buses and taxis only",
-    "prompt": {
-      "en": "Who may use this lane and when?",
-      "km": "នរណាអាចប្រើគន្លងនេះ និងពេលណា?"
-    },
     "answer": {
-      "en": "Only buses and taxis may use this lane 6 AM-9 AM, Monday-Friday.",
-      "km": "តែរថយន្តក្រុង និងតាក់ស៊ីប៉ុណ្ណោះ អាចប្រើគន្លងនេះ ពេលម៉ោង ៦-៩ ព្រឹក ចន្ទ-សុក្រ។"
+      "en": "The right lane ends ahead.",
+      "kh": "គន្លងខាងស្តាំនឹងបញ្ចប់នៅខាងមុខ។"
     },
-    "image": "/assets/road-signs/dl-37-2.png",
-    "alt": "Buses - taxis only 6AM-9AM Mon-Fri with downward arrow",
-    "category": "Warning"
+    "alt": "Lane ends ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What happens to the right lane ahead?",
+      "kh": "គន្លងខាងស្តាំនៅខាងមុខនឹងមានអ្វីកើតឡើង?"
+    }
   },
   {
-    "id": "question-1",
+    "id": 2,
     "sprite": {
       "page": 17,
-      "x": 41.570,
+      "x": 146.911,
+      "y": 145.487,
+      "width": 92.464,
+      "height": 91.208
+    },
+    "answer": {
+      "en": "A cross road is ahead.",
+      "kh": "មានផ្លូវឆ្លងកាត់នៅខាងមុខ។"
+    },
+    "alt": "Cross road warning sign",
+    "category": "Warning",
+    "question": {
+      "en": "What does this sign warn you about?",
+      "kh": "សញ្ញានេះព្រមានអំពីអ្វី?"
+    }
+  },
+  {
+    "id": 3,
+    "sprite": {
+      "page": 17,
+      "x": 254.335,
+      "y": 145.489,
+      "width": 92.472,
+      "height": 91.202
+    },
+    "answer": {
+      "en": "A divided highway begins ahead.",
+      "kh": "ផ្លូវបែងចែកកណ្តាលចាប់ផ្តើមនៅខាងមុខ។"
+    },
+    "alt": "Divided highway begins sign",
+    "category": "Warning",
+    "question": {
+      "en": "What does this sign indicate?",
+      "kh": "សញ្ញានេះបង្ហាញអ្វី?"
+    }
+  },
+  {
+    "id": 4,
+    "sprite": {
+      "page": 17,
+      "x": 361.767,
+      "y": 145.488,
+      "width": 92.467,
+      "height": 91.205
+    },
+    "answer": {
+      "en": "Two-way traffic is ahead.",
+      "kh": "មានចរាចរណ៍ពីរទិសនៅខាងមុខ។"
+    },
+    "alt": "Two-way traffic ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What traffic pattern is ahead?",
+      "kh": "ចរាចរណ៍បែបណានៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 5,
+    "sprite": {
+      "page": 17,
+      "x": 469.156,
+      "y": 144.83,
+      "width": 92.543,
+      "height": 92.52
+    },
+    "answer": {
+      "en": "The freeway ends in 1/2 mile.",
+      "kh": "ផ្លូវលឿនបញ្ចប់នៅចម្ងាយ 1/2 ម៉ាយ។"
+    },
+    "alt": "End freeway 1/2 mile sign",
+    "category": "Warning",
+    "question": {
+      "en": "What should you expect in 1/2 mile?",
+      "kh": "តើអ្វីកើតឡើងនៅចម្ងាយ 1/2 ម៉ាយ?"
+    }
+  },
+  {
+    "id": 6,
+    "sprite": {
+      "page": 17,
+      "x": 576.624,
+      "y": 145.488,
+      "width": 92.467,
+      "height": 91.205
+    },
+    "answer": {
+      "en": "The road ahead is winding.",
+      "kh": "ផ្លូវខាងមុខមានការខ្ជិលខ្ជាប់។"
+    },
+    "alt": "Winding road ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What is the road condition ahead?",
+      "kh": "ស្ថានភាពផ្លូវនៅខាងមុខដូចម្តេច?"
+    }
+  },
+  {
+    "id": 7,
+    "sprite": {
+      "page": 17,
+      "x": 684.053,
+      "y": 145.488,
+      "width": 92.465,
+      "height": 91.205
+    },
+    "answer": {
+      "en": "A right turn is ahead; reduce speed to 25 mph.",
+      "kh": "មានការបត់ស្តាំនៅខាងមុខ បន្ថយល្បឿនដល់ 25 mph។"
+    },
+    "alt": "Right turn ahead 25 mph sign",
+    "category": "Warning",
+    "question": {
+      "en": "How should you drive for the turn ahead?",
+      "kh": "តើអ្នកគួរបើកបរយ៉ាងដូចម្តេចសម្រាប់ការបត់នៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 8,
+    "sprite": {
+      "page": 17,
+      "x": 39.481,
+      "y": 288.445,
+      "width": 92.465,
+      "height": 91.208
+    },
+    "answer": {
+      "en": "There is a stop sign ahead.",
+      "kh": "មានសញ្ញាឈប់នៅខាងមុខ។"
+    },
+    "alt": "Stop sign ahead warning",
+    "category": "Warning",
+    "question": {
+      "en": "What should you be ready to do?",
+      "kh": "អ្នកគួរត្រៀមធ្វើអ្វី?"
+    }
+  },
+  {
+    "id": 9,
+    "sprite": {
+      "page": 17,
+      "x": 146.91,
+      "y": 288.445,
+      "width": 92.466,
+      "height": 91.208
+    },
+    "answer": {
+      "en": "There is a yield sign ahead.",
+      "kh": "មានសញ្ញាអនុញ្ញាតឲ្យផ្លូវនៅខាងមុខ។"
+    },
+    "alt": "Yield sign ahead warning",
+    "category": "Warning",
+    "question": {
+      "en": "What sign is coming up?",
+      "kh": "សញ្ញាអ្វីកំពុងមកដល់?"
+    }
+  },
+  {
+    "id": 10,
+    "sprite": {
+      "page": 17,
+      "x": 254.236,
+      "y": 288.02,
+      "width": 92.67,
+      "height": 92.061
+    },
+    "answer": {
+      "en": "A railroad crossing is ahead.",
+      "kh": "មានចំណុចឆ្លងកាត់ផ្លូវរថភ្លើងនៅខាងមុខ។"
+    },
+    "alt": "Railroad crossing ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What does this sign indicate ahead?",
+      "kh": "សញ្ញានេះបង្ហាញអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 11,
+    "sprite": {
+      "page": 17,
+      "x": 361.625,
+      "y": 296.93,
+      "width": 92.75,
+      "height": 74.238
+    },
+    "answer": {
+      "en": "The railroad crossing has four tracks.",
+      "kh": "ចំណុចឆ្លងកាត់ផ្លូវរថភ្លើងមាន 4 ខ្សែ។"
+    },
+    "alt": "Railroad crossing four tracks sign",
+    "category": "Warning",
+    "question": {
+      "en": "What should you expect at the crossing?",
+      "kh": "នៅចំណុចឆ្លងកាត់ អ្នកគួររំពឹងអ្វី?"
+    }
+  },
+  {
+    "id": 12,
+    "sprite": {
+      "page": 17,
+      "x": 469.196,
+      "y": 288.445,
+      "width": 92.464,
+      "height": 91.207
+    },
+    "answer": {
+      "en": "The road may be slippery when wet.",
+      "kh": "ផ្លូវអាចរអិលពេលសើម។"
+    },
+    "alt": "Slippery when wet sign",
+    "category": "Warning",
+    "question": {
+      "en": "What hazard does this sign warn about?",
+      "kh": "សញ្ញានេះព្រមានពីគ្រោះថ្នាក់អ្វី?"
+    }
+  },
+  {
+    "id": 13,
+    "sprite": {
+      "page": 17,
+      "x": 576.337,
+      "y": 295.309,
+      "width": 93.04,
+      "height": 77.48
+    },
+    "answer": {
+      "en": "Passing is not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យវ៉ា។"
+    },
+    "alt": "No passing zone sign",
+    "category": "Warning",
+    "question": {
+      "en": "What is not allowed here?",
+      "kh": "តំបន់នេះមិនអនុញ្ញាតអ្វី?"
+    }
+  },
+  {
+    "id": 14,
+    "sprite": {
+      "page": 17,
+      "x": 684.053,
+      "y": 288.445,
+      "width": 92.465,
+      "height": 91.208
+    },
+    "answer": {
+      "en": "Merging traffic is ahead.",
+      "kh": "មានចរាចរណ៍ចូលរួមនៅខាងមុខ។"
+    },
+    "alt": "Merging traffic ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What should you watch for ahead?",
+      "kh": "អ្នកគួរប្រុងប្រយ័ត្នអំពីអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 15,
+    "sprite": {
+      "page": 17,
+      "x": 39.436,
+      "y": 430.761,
+      "width": 92.557,
+      "height": 92.542
+    },
+    "answer": {
+      "en": "Through traffic must merge left.",
+      "kh": "ចរាចរណ៍ទៅមុខត្រូវចូលរួមទៅឆ្វេង។"
+    },
+    "alt": "Through traffic merge left sign",
+    "category": "Warning",
+    "question": {
+      "en": "What must through traffic do?",
+      "kh": "ចរាចរណ៍ទៅមុខត្រូវធ្វើអ្វី?"
+    }
+  },
+  {
+    "id": 16,
+    "sprite": {
+      "page": 17,
+      "x": 148.77,
+      "y": 432.678,
+      "width": 88.746,
+      "height": 88.708
+    },
+    "answer": {
+      "en": "The lane ends; merge left.",
+      "kh": "គន្លងបញ្ចប់ ត្រូវចូលរួមទៅឆ្វេង។"
+    },
+    "alt": "Lane ends merge left sign",
+    "category": "Warning",
+    "question": {
+      "en": "How should you prepare?",
+      "kh": "អ្នកគួរត្រៀមយ៉ាងដូចម្តេច?"
+    }
+  },
+  {
+    "id": 17,
+    "sprite": {
+      "page": 17,
+      "x": 254.338,
+      "y": 431.429,
+      "width": 92.464,
+      "height": 91.206
+    },
+    "answer": {
+      "en": "A traffic signal is ahead.",
+      "kh": "មានសញ្ញាចរាចរណ៍នៅខាងមុខ។"
+    },
+    "alt": "Traffic signal ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What control device is ahead?",
+      "kh": "ឧបករណ៍គ្រប់គ្រងចរាចរណ៍អ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 18,
+    "sprite": {
+      "page": 17,
+      "x": 361.765,
+      "y": 431.428,
+      "width": 92.469,
+      "height": 91.209
+    },
+    "answer": {
+      "en": "Bicyclists may be crossing.",
+      "kh": "អ្នកជិះកង់អាចកំពុងឆ្លងកាត់។"
+    },
+    "alt": "Bicycle crossing sign",
+    "category": "Warning",
+    "question": {
+      "en": "Who may be crossing here?",
+      "kh": "នរណាអាចឆ្លងកាត់នៅទីនេះ?"
+    }
+  },
+  {
+    "id": 19,
+    "sprite": {
+      "page": 17,
+      "x": 469.126,
+      "y": 430.749,
+      "width": 92.606,
+      "height": 92.565
+    },
+    "answer": {
+      "en": "A school bus stop is ahead in 400 ft.",
+      "kh": "មានកន្លែងឈប់រថយន្តសាលានៅខាងមុខ 400 ហ្វីត។"
+    },
+    "alt": "School bus stop ahead 400 ft sign",
+    "category": "Warning",
+    "question": {
+      "en": "What is ahead 400 ft?",
+      "kh": "អ្វីមាននៅខាងមុខ 400 ហ្វីត?"
+    }
+  },
+  {
+    "id": 20,
+    "sprite": {
+      "page": 17,
+      "x": 576.625,
+      "y": 431.435,
+      "width": 92.466,
+      "height": 91.196
+    },
+    "answer": {
+      "en": "Pedestrians may be crossing.",
+      "kh": "អ្នកថ្មើរជើងអាចកំពុងឆ្លងផ្លូវ។"
+    },
+    "alt": "Pedestrian crossing sign",
+    "category": "Warning",
+    "question": {
+      "en": "Who may be crossing the road?",
+      "kh": "នរណាអាចឆ្លងផ្លូវ?"
+    }
+  },
+  {
+    "id": 21,
+    "sprite": {
+      "page": 17,
+      "x": 684.053,
+      "y": 431.432,
+      "width": 92.467,
+      "height": 91.201
+    },
+    "answer": {
+      "en": "The road narrows ahead.",
+      "kh": "ផ្លូវតូចចូលនៅខាងមុខ។"
+    },
+    "alt": "Road narrows ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What happens to the roadway ahead?",
+      "kh": "ផ្លូវនៅខាងមុខនឹងមានអ្វីកើតឡើង?"
+    }
+  },
+  {
+    "id": 22,
+    "sprite": {
+      "page": 17,
+      "x": 39.48,
+      "y": 574.677,
+      "width": 92.468,
+      "height": 91.207
+    },
+    "answer": {
+      "en": "The paved surface ends ahead.",
+      "kh": "ផ្ទៃផ្លូវកៅស៊ូនឹងបញ្ចប់នៅខាងមុខ។"
+    },
+    "alt": "Pavement ends sign",
+    "category": "Warning",
+    "question": {
+      "en": "What road condition is ahead?",
+      "kh": "ស្ថានភាពផ្លូវអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 23,
+    "sprite": {
+      "page": 17,
+      "x": 146.872,
+      "y": 574.017,
+      "width": 92.542,
+      "height": 92.527
+    },
+    "answer": {
+      "en": "There is a soft shoulder ahead.",
+      "kh": "មានគែមផ្លូវទន់នៅខាងមុខ។"
+    },
+    "alt": "Soft shoulder sign",
+    "category": "Warning",
+    "question": {
+      "en": "What should you watch for ahead?",
+      "kh": "អ្នកគួរប្រុងប្រយ័ត្នអំពីអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 24,
+    "sprite": {
+      "page": 17,
+      "x": 254.265,
+      "y": 573.984,
+      "width": 92.612,
+      "height": 92.59
+    },
+    "answer": {
+      "en": "A slide area is ahead.",
+      "kh": "មានតំបន់រអិល/រអិលដីនៅខាងមុខ។"
+    },
+    "alt": "Slide area sign",
+    "category": "Warning",
+    "question": {
+      "en": "What hazard does this sign warn about?",
+      "kh": "សញ្ញានេះព្រមានពីគ្រោះថ្នាក់អ្វី?"
+    }
+  },
+  {
+    "id": 25,
+    "sprite": {
+      "page": 17,
+      "x": 361.766,
+      "y": 574.67,
+      "width": 92.469,
+      "height": 91.219
+    },
+    "answer": {
+      "en": "A narrow bridge is ahead.",
+      "kh": "មានស្ពានតូចនៅខាងមុខ។"
+    },
+    "alt": "Narrow bridge sign",
+    "category": "Warning",
+    "question": {
+      "en": "What should you expect ahead?",
+      "kh": "អ្នកគួររំពឹងអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 26,
+    "sprite": {
+      "page": 17,
+      "x": 469.132,
+      "y": 573.993,
+      "width": 92.593,
+      "height": 92.574
+    },
+    "answer": {
+      "en": "The roadway may be flooded ahead.",
+      "kh": "ផ្លូវអាចលិចទឹកនៅខាងមុខ។"
+    },
+    "alt": "Flooded roadway sign",
+    "category": "Warning",
+    "question": {
+      "en": "What condition is shown on this sign?",
+      "kh": "សញ្ញានេះបង្ហាញស្ថានភាពអ្វី?"
+    }
+  },
+  {
+    "id": 27,
+    "sprite": {
+      "page": 17,
+      "x": 576.586,
+      "y": 574.017,
+      "width": 92.542,
+      "height": 92.527
+    },
+    "answer": {
+      "en": "Cross traffic is ahead.",
+      "kh": "មានចរាចរណ៍ឆ្លងកាត់នៅខាងមុខ។"
+    },
+    "alt": "Cross traffic ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What traffic situation is ahead?",
+      "kh": "មានស្ថានភាពចរាចរណ៍អ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 28,
+    "sprite": {
+      "page": 17,
+      "x": 684.053,
+      "y": 574.671,
+      "width": 92.465,
+      "height": 91.217
+    },
+    "answer": {
+      "en": "The road ahead is rough.",
+      "kh": "ផ្លូវខាងមុខមិនស្មើ។"
+    },
+    "alt": "Rough road sign",
+    "category": "Warning",
+    "question": {
+      "en": "What road condition is ahead?",
+      "kh": "ស្ថានភាពផ្លូវអ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 29,
+    "sprite": {
+      "page": 17,
+      "x": 39.481,
+      "y": 717.241,
+      "width": 92.467,
+      "height": 91.219
+    },
+    "answer": {
+      "en": "A steep downgrade is ahead.",
+      "kh": "មានជម្រាលចុះត្រង់ខ្លាំងនៅខាងមុខ។"
+    },
+    "alt": "Steep downgrade sign",
+    "category": "Warning",
+    "question": {
+      "en": "What does this sign warn you about?",
+      "kh": "សញ្ញានេះព្រមានអំពីអ្វី?"
+    }
+  },
+  {
+    "id": 30,
+    "sprite": {
+      "page": 17,
+      "x": 146.831,
+      "y": 717.993,
+      "width": 92.624,
+      "height": 117.362
+    },
+    "answer": {
+      "en": "Children may be crossing; school crossing.",
+      "kh": "កុមារអាចកំពុងឆ្លងកាត់; តំបន់ឆ្លងកាត់សាលា។"
+    },
+    "alt": "School crossing sign",
+    "category": "Warning",
+    "question": {
+      "en": "Who may be crossing here?",
+      "kh": "នរណាអាចឆ្លងកាត់នៅទីនេះ?"
+    }
+  },
+  {
+    "id": 31,
+    "sprite": {
+      "page": 17,
+      "x": 254.031,
+      "y": 752.816,
+      "width": 93.081,
+      "height": 47.714
+    },
+    "answer": {
+      "en": "You must turn left.",
+      "kh": "អ្នកត្រូវបត់ឆ្វេង។"
+    },
+    "alt": "Left turn sign",
+    "category": "Warning",
+    "question": {
+      "en": "What direction must you follow?",
+      "kh": "អ្នកត្រូវទៅទិសណា?"
+    }
+  },
+  {
+    "id": 32,
+    "sprite": {
+      "page": 17,
+      "x": 361.773,
+      "y": 731.085,
+      "width": 92.454,
+      "height": 91.177
+    },
+    "answer": {
+      "en": "U-turns are not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យបត់ត្រឡប់ក្រោយ (U-turn)។"
+    },
+    "alt": "No U-turn sign",
+    "category": "Warning",
+    "question": {
+      "en": "What maneuver is prohibited?",
+      "kh": "ការធ្វើចលនាអ្វីត្រូវបានហាមឃាត់?"
+    }
+  },
+  {
+    "id": 33,
+    "sprite": {
+      "page": 17,
+      "x": 469.18,
+      "y": 731.062,
+      "width": 92.496,
+      "height": 91.222
+    },
+    "answer": {
+      "en": "A T-intersection is ahead.",
+      "kh": "មានចំណុចប្រសព្វទ្រង់ទ្រាយ T នៅខាងមុខ។"
+    },
+    "alt": "T-intersection ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What type of intersection is ahead?",
+      "kh": "មានចំណុចប្រសព្វប្រភេទណានៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 34,
+    "sprite": {
+      "page": 17,
+      "x": 576.623,
+      "y": 729.8,
+      "width": 92.468,
+      "height": 93.746
+    },
+    "answer": {
+      "en": "A T-intersection is ahead.",
+      "kh": "មានចំណុចប្រសព្វទ្រង់ទ្រាយ T នៅខាងមុខ។"
+    },
+    "alt": "T-intersection ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What type of intersection is ahead?",
+      "kh": "មានចំណុចប្រសព្វប្រភេទណានៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 35,
+    "sprite": {
+      "page": 17,
+      "x": 683.944,
+      "y": 730.332,
+      "width": 92.683,
+      "height": 92.683
+    },
+    "answer": {
+      "en": "A traffic signal is ahead.",
+      "kh": "មានសញ្ញាចរាចរណ៍នៅខាងមុខ។"
+    },
+    "alt": "Signal ahead sign",
+    "category": "Warning",
+    "question": {
+      "en": "What traffic control is ahead?",
+      "kh": "ការគ្រប់គ្រងចរាចរណ៍អ្វីនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 36,
+    "sprite": {
+      "page": 17,
+      "x": 41.57,
       "y": 911.163,
       "width": 88.285,
       "height": 91.265
     },
-    "question": "Stop sign requirements",
-    "prompt": {
-      "en": "What must you do when you see this sign?",
-      "km": "តើ​អ្នក​ត្រូវ​ធ្វើ​អ្វី​នៅ​ពេល​ឃើញ​សញ្ញា​នេះ?"
-    },
     "answer": {
       "en": "You must come to a complete stop.",
-      "km": "អ្នក​ត្រូវ​តែ​ឈប់​ពេញលេញ។"
+      "kh": "អ្នកត្រូវឈប់ពេញលេញ។"
     },
-    "image": "/assets/road-signs/stop-sign.svg",
-    "alt": "Red octagonal stop sign from DMV chart",
-    "category": "Regulatory"
+    "alt": "Stop sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What must you do at this sign?",
+      "kh": "អ្នកត្រូវធ្វើអ្វីនៅសញ្ញានេះ?"
+    }
   },
   {
-    "id": "question-2",
+    "id": 37,
     "sprite": {
-      "page": 2,
-      "x": 112.009,
-      "y": 126.986,
-      "width": 63.310,
-      "height": 56.123
-    },
-    "question": "Yield sign actions",
-    "prompt": {
-      "en": "How should you respond when you see this sign?",
-      "km": "តើ​អ្នក​គួរ​ឆ្លើយតប​ដូចម្តេច​នៅ​ពេល​ឃើញ​សញ្ញា​នេះ?"
+      "page": 17,
+      "x": 146.717,
+      "y": 915.639,
+      "width": 92.852,
+      "height": 82.314
     },
     "answer": {
-      "en": "Yield to traffic and pedestrians; slow down and be ready to stop.",
-      "km": "ឲ្យ​ផ្លូវ​ចរាចរណ៍ និង​អ្នក​ថ្មើរជើង បន្ថយ​ល្បឿន និង​ត្រៀម​ឈប់។"
+      "en": "Yield to other traffic and pedestrians.",
+      "kh": "អនុញ្ញាតឲ្យចរាចរណ៍ និងអ្នកថ្មើរជើងជាមុន។"
     },
-    "image": "/assets/road-signs/dl-37-2.png",
-    "alt": "Red downward-pointing triangle yield sign",
-    "category": "Regulatory"
+    "alt": "Yield sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What must you do when you see this sign?",
+      "kh": "អ្នកត្រូវធ្វើអ្វីនៅពេលឃើញសញ្ញានេះ?"
+    }
   },
   {
-    "id": "question-3",
+    "id": 38,
     "sprite": {
-      "page": 2,
-      "x": 114.954,
-      "y": 218.626,
-      "width": 57.663,
-      "height": 72.034
-    },
-    "question": "Speed limit meaning",
-    "prompt": {
-      "en": "What does this speed limit sign indicate?",
-      "km": "សញ្ញា​កំណត់​ល្បឿន​នេះ​បង្ហាញ​អ្វី?"
+      "page": 17,
+      "x": 254.16,
+      "y": 928.655,
+      "width": 92.823,
+      "height": 56.283
     },
     "answer": {
-      "en": "The maximum lawful speed here is 50 mph in ideal conditions.",
-      "km": "ល្បឿន​អតិបរមា​ត្រឹម ៥០ mph នៅ​ក្នុងលក្ខខណ្ឌ​ល្អ​បំផុត។"
+      "en": "You are going the wrong way.",
+      "kh": "អ្នកកំពុងទៅទិសខុស។"
     },
-    "image": "/assets/road-signs/dl-37-2.png",
-    "alt": "White rectangular speed limit 50 sign",
-    "category": "Regulatory"
+    "alt": "Wrong way sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What does this sign mean?",
+      "kh": "សញ្ញានេះមានន័យដូចម្តេច?"
+    }
+  },
+  {
+    "id": 39,
+    "sprite": {
+      "page": 17,
+      "x": 361.614,
+      "y": 910.411,
+      "width": 92.771,
+      "height": 92.769
+    },
+    "answer": {
+      "en": "Do not enter this road.",
+      "kh": "ហាមចូលផ្លូវនេះ។"
+    },
+    "alt": "Do not enter sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What does this sign tell you?",
+      "kh": "សញ្ញានេះប្រាប់អ្នកអ្វី?"
+    }
+  },
+  {
+    "id": 40,
+    "sprite": {
+      "page": 17,
+      "x": 469.204,
+      "y": 910.572,
+      "width": 92.449,
+      "height": 92.448
+    },
+    "answer": {
+      "en": "Left turns are not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យបត់ឆ្វេង។"
+    },
+    "alt": "No left turn sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What turn is prohibited?",
+      "kh": "ការបត់អ្វីត្រូវបានហាមឃាត់?"
+    }
+  },
+  {
+    "id": 41,
+    "sprite": {
+      "page": 17,
+      "x": 578.769,
+      "y": 912.343,
+      "width": 88.88,
+      "height": 88.903
+    },
+    "answer": {
+      "en": "Parking is not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យចតរថយន្ត។"
+    },
+    "alt": "No parking sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What is not allowed here?",
+      "kh": "តំបន់នេះមិនអនុញ្ញាតអ្វី?"
+    }
+  },
+  {
+    "id": 42,
+    "sprite": {
+      "page": 17,
+      "x": 684.065,
+      "y": 910.581,
+      "width": 92.44,
+      "height": 92.431
+    },
+    "answer": {
+      "en": "U-turns are not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យបត់ត្រឡប់ក្រោយ (U-turn)។"
+    },
+    "alt": "No U-turn sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What maneuver is prohibited?",
+      "kh": "ការធ្វើចលនាអ្វីត្រូវបានហាមឃាត់?"
+    }
+  },
+  {
+    "id": 43,
+    "sprite": {
+      "page": 17,
+      "x": 43.664,
+      "y": 1055.333,
+      "width": 84.1,
+      "height": 136.101
+    },
+    "answer": {
+      "en": "Parking is not allowed at any time.",
+      "kh": "មិនអនុញ្ញាតឲ្យចតរថយន្តនៅពេលណាក៏បានទេ។"
+    },
+    "alt": "No parking any time sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What is not allowed here?",
+      "kh": "តំបន់នេះមិនអនុញ្ញាតអ្វី?"
+    }
+  },
+  {
+    "id": 44,
+    "sprite": {
+      "page": 17,
+      "x": 146.812,
+      "y": 1060.509,
+      "width": 92.663,
+      "height": 115.748
+    },
+    "answer": {
+      "en": "Passing other vehicles is not allowed.",
+      "kh": "មិនអនុញ្ញាតឲ្យវ៉ារថយន្តផ្សេងទៀត។"
+    },
+    "alt": "Do not pass sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What maneuver is prohibited here?",
+      "kh": "តំបន់នេះហាមឃាត់ការធ្វើចលនាអ្វី?"
+    }
+  },
+  {
+    "id": 45,
+    "sprite": {
+      "page": 17,
+      "x": 254.345,
+      "y": 1060.607,
+      "width": 92.452,
+      "height": 115.551
+    },
+    "answer": {
+      "en": "You must turn right.",
+      "kh": "អ្នកត្រូវបត់ស្តាំ។"
+    },
+    "alt": "Right turn only sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What movement is required?",
+      "kh": "តើការធ្វើចលនាអ្វីត្រូវបានទាមទារ?"
+    }
+  },
+  {
+    "id": 46,
+    "sprite": {
+      "page": 17,
+      "x": 361.667,
+      "y": 1058.841,
+      "width": 92.665,
+      "height": 119.083
+    },
+    "answer": {
+      "en": "Keep to the right.",
+      "kh": "ត្រូវរក្សាទៅខាងស្តាំ។"
+    },
+    "alt": "Keep right sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Which side should you keep to?",
+      "kh": "អ្នកគួរតែរក្សាទៅខាងណា?"
+    }
+  },
+  {
+    "id": 47,
+    "sprite": {
+      "page": 17,
+      "x": 469.101,
+      "y": 1059.528,
+      "width": 92.655,
+      "height": 117.709
+    },
+    "answer": {
+      "en": "Keep right of the divider.",
+      "kh": "ត្រូវរក្សាទៅខាងស្តាំនៃតួបែងចែក។"
+    },
+    "alt": "Divided highway keep right sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "How should you pass the divider?",
+      "kh": "អ្នកគួរឆ្លងកាត់តួបែងចែកយ៉ាងដូចម្តេច?"
+    }
+  },
+  {
+    "id": 48,
+    "sprite": {
+      "page": 17,
+      "x": 572.633,
+      "y": 1063.551,
+      "width": 92.447,
+      "height": 109.662
+    },
+    "answer": {
+      "en": "Left turns are allowed from both directions only.",
+      "kh": "អនុញ្ញាតឲ្យបត់ឆ្វេងពីទិសទាំងពីរ ប៉ុណ្ណោះ។"
+    },
+    "alt": "Two-way left turn only sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What movements are allowed?",
+      "kh": "ការធ្វើចលនាអ្វីត្រូវបានអនុញ្ញាត?"
+    }
+  },
+  {
+    "id": 49,
+    "sprite": {
+      "page": 17,
+      "x": 683.953,
+      "y": 1060.499,
+      "width": 92.667,
+      "height": 115.769
+    },
+    "answer": {
+      "en": "Slower traffic should keep right.",
+      "kh": "ចរាចរណ៍ដែលយឺតត្រូវរក្សាទៅខាងស្តាំ។"
+    },
+    "alt": "Slower traffic keep right sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What should slower traffic do?",
+      "kh": "ចរាចរណ៍ដែលយឺតត្រូវធ្វើអ្វី?"
+    }
   }
 ]

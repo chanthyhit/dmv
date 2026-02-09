@@ -208,7 +208,7 @@ const DocumentsPage = () => {
         <h1 className="text-3xl font-bold text-white">Traffic sign quick reference</h1>
         <p className="text-slate-300">
           Converted from the static HTML layout into a reusable React + Tailwind component. Each
-          item mirrors the original question, prompt, and sign image pulled directly from the DMV
+          item mirrors the original question, question, and sign image pulled directly from the DMV
           PDF stored with the app.
         </p>
         <div className="flex flex-wrap gap-3">
@@ -247,21 +247,19 @@ const DocumentsPage = () => {
             className="flex flex-col gap-4 rounded-2xl border border-slate-800/80 bg-card/80 p-6 shadow-elevated lg:flex-row lg:items-start lg:justify-between"
           >
             <div className="space-y-2">
-              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.id}. {item.alt}</p>
+              <p className="text-sm font-semibold uppercase tracking-wide text-brand">{item.id}. {item.category} | {item.alt}</p>
               <div className="flex items-center gap-2">
-                <h2 className="text-xl font-semibold text-white">{item.prompt.en}</h2>
+                <p className="text-xl text-white">{item.question.en}</p>
                 <button
                   type="button"
-                  onClick={() => speakText(item.prompt.en)}
-                  aria-label={`Play prompt for ${item.category}`}
+                  onClick={() => speakText(item.question.en)}
+                  aria-label={`Play question for ${item.category}`}
                   className="rounded-full border border-slate-700/80 bg-slate-900/70 px-3 py-1 text-xs font-semibold text-slate-200 transition hover:border-brand hover:text-white"
                 >
                   ▶︎
                 </button>
               </div>
-              {item.prompt.kh ? (
-                <h2 className="text-xl font-semibold text-white">{item.prompt.kh}</h2>
-              ) : null}
+              <p className="text-xl text-white">{item.question.kh}</p>
               <div className="flex items-center gap-2">
                 <p className="text-base text-slate-200">{item.answer.en}</p>
                 <button
@@ -273,7 +271,7 @@ const DocumentsPage = () => {
                   ▶︎
                 </button>
               </div>
-              {item.answer.kh ? <p className="text-xl text-slate-200">{item.answer.kh}</p> : null}
+              <p className="text-xl text-slate-200">{item.answer.kh}</p>
             </div>
             <div className="flex h-40 w-40 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-700">
               <RoadSign sprite={item.sprite} size={150} ariaLabel={item.alt} className="h-full w-full" />
@@ -310,12 +308,12 @@ const DocumentsPage = () => {
                   >
                     <div className="space-y-2">
                       <p className="text-xs font-semibold uppercase tracking-wide text-black">
-                        {item.id}. {item.category} [{item.alt}]
+                        {item.id}. {item.category} | {item.alt}
                       </p>
-                      <h2 className="text-lg text-black">{item.prompt.en}</h2>
-                      {item.prompt.kh ? <p className="text-xl text-black">{item.prompt.kh}</p> : null}
+                      <p className="text-lg text-black">{item.question.en}</p>
+                      <p className="text-xl text-black">{item.question.kh}</p>
                       <p className="text-lg text-black">{item.answer.en}</p>
-                      {item.answer.kh ? <p className="text-xl text-black">{item.answer.kh}</p> : null}
+                      <p className="text-xl text-black">{item.answer.kh}</p>
                     </div>
                     <div className="ml-auto flex h-32 w-32 flex-shrink-0 items-center justify-center overflow-hidden rounded-xl border-black/10 bg-white">
                       <RoadSign
