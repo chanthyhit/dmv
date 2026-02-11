@@ -978,5 +978,1005 @@
       "en": "What should slower traffic do?",
       "kh": "ចរាចរណ៍ដែលយឺតត្រូវធ្វើអ្វី?"
     }
+  },
+  {
+    "id": 50,
+    "sprite": {
+      "page": 18,
+      "x": 39.487,
+      "y": 63.533,
+      "width": 92.453,
+      "height": 115.551
+    },
+    "answer": {
+      "en": "Two-way traffic is ahead.",
+      "kh": "មានចរាចរណ៍ពីរទិសនៅខាងមុខ។"
+    },
+    "alt": "Two-way traffic ahead sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What traffic direction pattern does this sign warn about?",
+      "kh": "សញ្ញានេះព្រមានអំពីលំនាំទិសចរាចរណ៍អ្វី?"
+    }
+  },
+  {
+    "id": 51,
+    "sprite": {
+      "page": 18,
+      "x": 146.917,
+      "y": 63.324,
+      "width": 92.45,
+      "height": 115.969
+    },
+    "answer": {
+      "en": "Do not turn when the traffic light is red.",
+      "kh": "មិនត្រូវបត់ពេលភ្លើងសញ្ញាចរាចរណ៍ពណ៌ក្រហម។"
+    },
+    "alt": "No turn on red sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "When this sign is posted, what action is prohibited on red?",
+      "kh": "នៅពេលមានសញ្ញានេះ តើសកម្មភាពអ្វីត្រូវហាមពេលភ្លើងក្រហម?"
+    }
+  },
+  {
+    "id": 52,
+    "sprite": {
+      "page": 18,
+      "x": 254.238,
+      "y": 63.436,
+      "width": 92.667,
+      "height": 115.746
+    },
+    "answer": {
+      "en": "Left-turning traffic must yield on green.",
+      "kh": "យានយន្តបត់ឆ្វេងត្រូវឱ្យផ្លូវពេលភ្លើងបៃតង។"
+    },
+    "alt": "Left turn yield on green sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Who must yield when turning left on a green signal?",
+      "kh": "ពេលបត់ឆ្វេងនៅភ្លើងបៃតង តើអ្នកណាត្រូវឱ្យផ្លូវ?"
+    }
+  },
+  {
+    "id": 53,
+    "sprite": {
+      "page": 18,
+      "x": 361.595,
+      "y": 63.337,
+      "width": 92.811,
+      "height": 115.943
+    },
+    "answer": {
+      "en": "The maximum speed limit is 50 mph.",
+      "kh": "ល្បឿនអតិបរមាគឺ 50 ម៉ាយក្នុងមួយម៉ោង។"
+    },
+    "alt": "Speed limit 50 sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What is the posted maximum speed on this roadway?",
+      "kh": "តើល្បឿនអតិបរមាដែលបានកំណត់លើផ្លូវនេះប៉ុន្មាន?"
+    }
+  },
+  {
+    "id": 54,
+    "sprite": {
+      "page": 18,
+      "x": 469.096,
+      "y": 65.982,
+      "width": 92.664,
+      "height": 110.652
+    },
+    "answer": {
+      "en": "Turning traffic must yield to pedestrians.",
+      "kh": "យានយន្តដែលបត់ត្រូវឱ្យផ្លូវដល់អ្នកថ្មើរជើង។"
+    },
+    "alt": "Turning traffic must yield to pedestrians sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Who has the right-of-way when vehicles are turning here?",
+      "kh": "ពេលយានយន្តបត់នៅទីនេះ តើអ្នកណាមានសិទ្ធិអាទិភាព?"
+    }
+  },
+  {
+    "id": 55,
+    "sprite": {
+      "page": 18,
+      "x": 576.372,
+      "y": 59.489,
+      "width": 92.971,
+      "height": 123.641
+    },
+    "answer": {
+      "en": "Push the button to activate the pedestrian crossing signal.",
+      "kh": "ចុចប៊ូតុងដើម្បីបើកសញ្ញាឆ្លងផ្លូវសម្រាប់អ្នកថ្មើរជើង។"
+    },
+    "alt": "Push button for pedestrian crossing sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What should a pedestrian do before crossing at this location?",
+      "kh": "មុនឆ្លងផ្លូវនៅទីនេះ អ្នកថ្មើរជើងគួរធ្វើអ្វី?"
+    }
+  },
+  {
+    "id": 56,
+    "sprite": {
+      "page": 18,
+      "x": 683.798,
+      "y": 74.646,
+      "width": 92.976,
+      "height": 93.326
+    },
+    "answer": {
+      "en": "A railroad crossing is ahead.",
+      "kh": "មានចំណុចឆ្លងផ្លូវរថភ្លើងនៅខាងមុខ។"
+    },
+    "alt": "Railroad crossing sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What roadway feature is coming up ahead?",
+      "kh": "តើលក្ខណៈផ្លូវអ្វីកំពុងមានខាងមុខ?"
+    }
+  },
+  {
+    "id": 57,
+    "sprite": {
+      "page": 18,
+      "x": 39.194,
+      "y": 233.797,
+      "width": 93.04,
+      "height": 116.141
+    },
+    "answer": {
+      "en": "This lane is for left turns only; U-turns are not allowed.",
+      "kh": "គន្លងនេះសម្រាប់បត់ឆ្វេងប៉ុណ្ណោះ មិនអនុញ្ញាតឱ្យបត់ត្រឡប់ក្រោយ។"
+    },
+    "alt": "Left turn only no U-turn sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Which maneuver is not allowed from this lane?",
+      "kh": "តើចលនាបើកបរណាមួយមិនអនុញ្ញាតពីគន្លងនេះ?"
+    }
+  },
+  {
+    "id": 58,
+    "sprite": {
+      "page": 18,
+      "x": 146.623,
+      "y": 245.349,
+      "width": 93.04,
+      "height": 93.038
+    },
+    "answer": {
+      "en": "One lane allows a left turn or U-turn, while the adjacent lane is left-turn only.",
+      "kh": "គន្លងមួយអាចបត់ឆ្វេងឬបត់ត្រឡប់ក្រោយ ហើយគន្លងក្បែរបត់ឆ្វេងប៉ុណ្ណោះ។"
+    },
+    "alt": "Left turn or U-turn lane-use sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "How are turn options divided between these two lanes?",
+      "kh": "តើជម្រើសបត់ត្រូវបានបែងចែករវាងគន្លងទាំងពីរយ៉ាងដូចម្តេច?"
+    }
+  },
+  {
+    "id": 59,
+    "sprite": {
+      "page": 18,
+      "x": 254.264,
+      "y": 245.56,
+      "width": 92.612,
+      "height": 92.616
+    },
+    "answer": {
+      "en": "The right lane must turn right; the other lane may continue or turn right.",
+      "kh": "គន្លងខាងស្តាំត្រូវបត់ស្តាំ ខណៈគន្លងមួយទៀតអាចទៅត្រង់ឬបត់ស្តាំ។"
+    },
+    "alt": "Lane-use control sign with right-turn-only lane",
+    "category": "Regulatory",
+    "question": {
+      "en": "What movement is required for the right lane at this intersection?",
+      "kh": "នៅចំណុចប្រសព្វនេះ គន្លងខាងស្តាំត្រូវធ្វើចលនាអ្វី?"
+    }
+  },
+  {
+    "id": 60,
+    "sprite": {
+      "page": 18,
+      "x": 361.775,
+      "y": 245.643,
+      "width": 92.45,
+      "height": 92.449
+    },
+    "answer": {
+      "en": "No turns are allowed at this location.",
+      "kh": "មិនអនុញ្ញាតឱ្យបត់នៅទីតាំងនេះទេ។"
+    },
+    "alt": "No turns sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What kind of turning movement is forbidden here?",
+      "kh": "នៅទីនេះ តើការបត់ប្រភេទណាត្រូវបានហាម?"
+    }
+  },
+  {
+    "id": 61,
+    "sprite": {
+      "page": 18,
+      "x": 469.204,
+      "y": 245.641,
+      "width": 92.448,
+      "height": 92.452
+    },
+    "answer": {
+      "en": "The right lane must turn right.",
+      "kh": "គន្លងខាងស្តាំត្រូវបត់ស្តាំ។"
+    },
+    "alt": "Right lane must turn right sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "If you are in the right lane, which direction must you go?",
+      "kh": "បើអ្នកស្ថិតក្នុងគន្លងខាងស្តាំ តើត្រូវទៅទិសណា?"
+    }
+  },
+  {
+    "id": 62,
+    "sprite": {
+      "page": 18,
+      "x": 576.643,
+      "y": 251.376,
+      "width": 92.429,
+      "height": 80.983
+    },
+    "answer": {
+      "en": "Slower traffic must use turnouts to let others pass.",
+      "kh": "យានយន្តយឺតត្រូវប្រើកន្លែងលែងផ្លូវឱ្យយានយន្តផ្សេងវ៉ា។"
+    },
+    "alt": "Slower traffic use turnouts sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "If you are driving slowly here, what must you use?",
+      "kh": "បើអ្នកបើកបរយឺតនៅទីនេះ តើត្រូវប្រើអ្វី?"
+    }
+  },
+  {
+    "id": 63,
+    "sprite": {
+      "page": 18,
+      "x": 683.963,
+      "y": 254.743,
+      "width": 92.645,
+      "height": 74.248
+    },
+    "answer": {
+      "en": "Parking is allowed for emergencies only.",
+      "kh": "អាចចតបានសម្រាប់ករណីអាសន្នប៉ុណ្ណោះ។"
+    },
+    "alt": "Emergency parking only sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Under what condition is parking allowed at this spot?",
+      "kh": "តើក្នុងលក្ខខណ្ឌអ្វីទើបអាចចតនៅទីតាំងនេះ?"
+    }
+  },
+  {
+    "id": 64,
+    "sprite": {
+      "page": 18,
+      "x": 39.415,
+      "y": 400.606,
+      "width": 92.598,
+      "height": 104.147
+    },
+    "answer": {
+      "en": "Yield to vehicles traveling uphill.",
+      "kh": "ត្រូវឱ្យផ្លូវដល់យានយន្តដែលឡើងចំណោត។"
+    },
+    "alt": "Yield to uphill traffic sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "Which vehicles must you yield to on this grade?",
+      "kh": "នៅលើផ្លូវឡើងចំណោតនេះ តើអ្នកត្រូវឱ្យផ្លូវដល់យានយន្តណា?"
+    }
+  },
+  {
+    "id": 65,
+    "sprite": {
+      "page": 18,
+      "x": 146.817,
+      "y": 418.953,
+      "width": 92.651,
+      "height": 67.453
+    },
+    "answer": {
+      "en": "The right lane is required to exit.",
+      "kh": "គន្លងខាងស្តាំត្រូវចេញតាមផ្លូវចេញ។"
+    },
+    "alt": "Right lane must exit sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What must drivers in the right lane do next?",
+      "kh": "អ្នកបើកបរក្នុងគន្លងខាងស្តាំត្រូវធ្វើអ្វីបន្ទាប់?"
+    }
+  },
+  {
+    "id": 66,
+    "sprite": {
+      "page": 18,
+      "x": 254.265,
+      "y": 421.916,
+      "width": 92.611,
+      "height": 61.527
+    },
+    "answer": {
+      "en": "A turnout is 1/4 mile ahead.",
+      "kh": "មានកន្លែងលែងផ្លូវនៅចម្ងាយ 1/4 ម៉ាយខាងមុខ។"
+    },
+    "alt": "Turnout 1/4 mile sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What should you expect in a quarter mile?",
+      "kh": "តើអ្នកគួររំពឹងអ្វីនៅចម្ងាយ ១/៤ ម៉ាយ?"
+    }
+  },
+  {
+    "id": 67,
+    "sprite": {
+      "page": 18,
+      "x": 361.712,
+      "y": 417.943,
+      "width": 92.573,
+      "height": 69.475
+    },
+    "answer": {
+      "en": "A bike lane is designated here.",
+      "kh": "ទីនេះជាគន្លងសម្រាប់កង់។"
+    },
+    "alt": "Bike lane sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What type of lane is marked by this sign?",
+      "kh": "សញ្ញានេះកំណត់ថាជាគន្លងប្រភេទអ្វី?"
+    }
+  },
+  {
+    "id": 68,
+    "sprite": {
+      "page": 18,
+      "x": 469.14,
+      "y": 421.791,
+      "width": 92.577,
+      "height": 61.777
+    },
+    "answer": {
+      "en": "A bus/carpool lane is ahead.",
+      "kh": "មានគន្លងរថយន្តក្រុង/រថយន្តរួមដំណើរនៅខាងមុខ។"
+    },
+    "alt": "Bus carpool lane ahead sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What special lane is approaching ahead?",
+      "kh": "តើគន្លងពិសេសអ្វីកំពុងមកដល់ខាងមុខ?"
+    }
+  },
+  {
+    "id": 69,
+    "sprite": {
+      "page": 18,
+      "x": 576.596,
+      "y": 435.775,
+      "width": 92.522,
+      "height": 33.809
+    },
+    "answer": {
+      "en": "Carpool lane violations carry a minimum fine.",
+      "kh": "ការរំលោភគន្លងរថយន្តរួមដំណើរមានពិន័យអប្បបរមា។"
+    },
+    "alt": "Carpool violation minimum fine sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "What happens if you violate this lane restriction?",
+      "kh": "បើអ្នករំលោភការកំណត់គន្លងនេះ តើមានអ្វីកើតឡើង?"
+    }
+  },
+  {
+    "id": 70,
+    "sprite": {
+      "page": 18,
+      "x": 694.077,
+      "y": 440.387,
+      "width": 77.466,
+      "height": 25.188
+    },
+    "answer": {
+      "en": "Traffic flows one way to the right.",
+      "kh": "ចរាចរណ៍បើកបរទិសតែមួយទៅខាងស្តាំ។"
+    },
+    "alt": "One way right sign",
+    "category": "Regulatory",
+    "question": {
+      "en": "In which direction is traffic permitted on this street?",
+      "kh": "លើផ្លូវនេះ ចរាចរណ៍អនុញ្ញាតឱ្យទៅទិសណា?"
+    }
+  },
+  {
+    "id": 71,
+    "sprite": {
+      "page": 18,
+      "x": 39.385,
+      "y": 577.592,
+      "width": 92.659,
+      "height": 92.616
+    },
+    "answer": {
+      "en": "Road work is ahead.",
+      "kh": "មានការងារជួសជុលផ្លូវនៅខាងមុខ។"
+    },
+    "alt": "Road work ahead sign",
+    "category": "Construction",
+    "question": {
+      "en": "What roadway condition should you prepare for next?",
+      "kh": "តើស្ថានភាពផ្លូវអ្វីដែលអ្នកគួរត្រៀមខាងមុខ?"
+    }
+  },
+  {
+    "id": 72,
+    "sprite": {
+      "page": 18,
+      "x": 146.814,
+      "y": 577.586,
+      "width": 92.66,
+      "height": 92.628
+    },
+    "answer": {
+      "en": "The road is closed ahead.",
+      "kh": "ផ្លូវត្រូវបានបិទនៅខាងមុខ។"
+    },
+    "alt": "Road closed ahead sign",
+    "category": "Construction",
+    "question": {
+      "en": "What is the status of the roadway ahead?",
+      "kh": "តើស្ថានភាពផ្លូវខាងមុខយ៉ាងដូចម្តេច?"
+    }
+  },
+  {
+    "id": 73,
+    "sprite": {
+      "page": 18,
+      "x": 254.328,
+      "y": 577.683,
+      "width": 92.487,
+      "height": 92.433
+    },
+    "answer": {
+      "en": "There is no shoulder ahead.",
+      "kh": "មិនមានចិញ្ចើមផ្លូវនៅខាងមុខ។"
+    },
+    "alt": "No shoulder sign",
+    "category": "Construction",
+    "question": {
+      "en": "What shoulder condition does this sign indicate?",
+      "kh": "សញ្ញានេះបង្ហាញពីស្ថានភាពចិញ្ចើមផ្លូវអ្វី?"
+    }
+  },
+  {
+    "id": 74,
+    "sprite": {
+      "page": 18,
+      "x": 361.669,
+      "y": 577.584,
+      "width": 92.663,
+      "height": 92.631
+    },
+    "answer": {
+      "en": "The road narrows to one lane ahead.",
+      "kh": "ផ្លូវនឹងតូចចូលជា១គន្លងនៅខាងមុខ។"
+    },
+    "alt": "One lane road ahead sign",
+    "category": "Construction",
+    "question": {
+      "en": "How many lanes will this road reduce to ahead?",
+      "kh": "ផ្លូវនេះនឹងតូចចូលទៅប៉ុន្មានគន្លងនៅខាងមុខ?"
+    }
+  },
+  {
+    "id": 75,
+    "sprite": {
+      "page": 18,
+      "x": 469.185,
+      "y": 577.68,
+      "width": 92.487,
+      "height": 92.44
+    },
+    "answer": {
+      "en": "One lane is closed ahead.",
+      "kh": "គន្លងមួយត្រូវបានបិទនៅខាងមុខ។"
+    },
+    "alt": "Lane closed sign",
+    "category": "Construction",
+    "question": {
+      "en": "What change to lane availability is posted here?",
+      "kh": "តើមានការផ្លាស់ប្តូរអ្វីចំពោះការប្រើគន្លងនៅទីនេះ?"
+    }
+  },
+  {
+    "id": 76,
+    "sprite": {
+      "page": 18,
+      "x": 576.617,
+      "y": 577.689,
+      "width": 92.48,
+      "height": 92.42
+    },
+    "answer": {
+      "en": "Loose gravel is on the roadway.",
+      "kh": "មានក្រួសរាយលើផ្លូវ។"
+    },
+    "alt": "Loose gravel sign",
+    "category": "Construction",
+    "question": {
+      "en": "What surface hazard does this sign warn about?",
+      "kh": "សញ្ញានេះព្រមានពីគ្រោះថ្នាក់លើផ្ទៃផ្លូវអ្វី?"
+    }
+  },
+  {
+    "id": 77,
+    "sprite": {
+      "page": 18,
+      "x": 683.957,
+      "y": 577.575,
+      "width": 92.659,
+      "height": 92.648
+    },
+    "answer": {
+      "en": "Shoulder work is ahead.",
+      "kh": "មានការងារលើចិញ្ចើមផ្លូវនៅខាងមុខ។"
+    },
+    "alt": "Shoulder work ahead sign",
+    "category": "Construction",
+    "question": {
+      "en": "What work activity is taking place beside the lane?",
+      "kh": "តើការងារអ្វីកំពុងធ្វើនៅជាយគន្លងផ្លូវ?"
+    }
+  },
+  {
+    "id": 78,
+    "sprite": {
+      "page": 18,
+      "x": 39.385,
+      "y": 722.576,
+      "width": 92.659,
+      "height": 112.356
+    },
+    "answer": {
+      "en": "Road workers are ahead.",
+      "kh": "មានកម្មករធ្វើការលើផ្លូវនៅខាងមុខ។"
+    },
+    "alt": "Workers ahead sign",
+    "category": "Construction",
+    "question": {
+      "en": "Who may be present in the roadway ahead?",
+      "kh": "តើអ្នកណាអាចមាននៅលើផ្លូវខាងមុខ?"
+    }
+  },
+  {
+    "id": 79,
+    "sprite": {
+      "page": 18,
+      "x": 148.487,
+      "y": 722.545,
+      "width": 89.311,
+      "height": 112.419
+    },
+    "answer": {
+      "en": "The ramp is closed to through traffic from 7 AM to 5 PM.",
+      "kh": "ផ្លូវឡើងចុះត្រូវបានបិទចំពោះចរាចរណ៍ត្រង់ពីម៉ោង 7 ព្រឹក ដល់ 5 ល្ងាច។"
+    },
+    "alt": "Ramp closed sign",
+    "category": "Construction",
+    "question": {
+      "en": "During the posted hours, what is closed to through traffic?",
+      "kh": "ក្នុងម៉ោងដែលបានបង្ហាញ តើអ្វីត្រូវបានបិទសម្រាប់ចរាចរណ៍ត្រង់?"
+    }
+  },
+  {
+    "id": 80,
+    "sprite": {
+      "page": 18,
+      "x": 254.324,
+      "y": 732.522,
+      "width": 92.495,
+      "height": 92.462
+    },
+    "answer": {
+      "en": "Two-way traffic is present ahead.",
+      "kh": "មានចរាចរណ៍ពីរទិសនៅខាងមុខ។"
+    },
+    "alt": "Two-way traffic work-zone sign",
+    "category": "Construction",
+    "question": {
+      "en": "What traffic flow pattern exists in this work zone?",
+      "kh": "ក្នុងតំបន់ការងារនេះ មានលំនាំចរាចរណ៍អ្វី?"
+    }
+  },
+  {
+    "id": 81,
+    "sprite": {
+      "page": 18,
+      "x": 361.256,
+      "y": 739.435,
+      "width": 93.487,
+      "height": 78.635
+    },
+    "answer": {
+      "en": "Slow-moving vehicles may be ahead.",
+      "kh": "អាចមានយានយន្តដែលបើកយឺតនៅខាងមុខ។"
+    },
+    "alt": "Slow-moving vehicle sign",
+    "category": "Construction",
+    "question": {
+      "en": "What type of vehicle should you expect to encounter?",
+      "kh": "តើអ្នកគួររំពឹងជួបយានយន្តប្រភេទអ្វី?"
+    }
+  },
+  {
+    "id": 82,
+    "sprite": {
+      "page": 18,
+      "x": 469.138,
+      "y": 746.309,
+      "width": 92.584,
+      "height": 64.888
+    },
+    "answer": {
+      "en": "Use the next exit.",
+      "kh": "ប្រើផ្លូវចេញបន្ទាប់។"
+    },
+    "alt": "Use next exit sign",
+    "category": "Construction",
+    "question": {
+      "en": "Which exit should you use according to this sign?",
+      "kh": "តាមសញ្ញានេះ អ្នកគួរប្រើផ្លូវចេញមួយណា?"
+    }
+  },
+  {
+    "id": 83,
+    "sprite": {
+      "page": 18,
+      "x": 576.309,
+      "y": 754.883,
+      "width": 93.096,
+      "height": 47.741
+    },
+    "answer": {
+      "en": "Road work continues for the next 5 miles.",
+      "kh": "មានការងារផ្លូវបន្តសម្រាប់ 5 ម៉ាយបន្ទាប់។"
+    },
+    "alt": "Road work next 5 miles sign",
+    "category": "Construction",
+    "question": {
+      "en": "For how far does the road work continue?",
+      "kh": "ការងារផ្លូវបន្តទៅឆ្ងាយប៉ុន្មាន?"
+    }
+  },
+  {
+    "id": 84,
+    "sprite": {
+      "page": 18,
+      "x": 684.009,
+      "y": 761.099,
+      "width": 92.551,
+      "height": 35.311
+    },
+    "answer": {
+      "en": "Follow the detour to the right.",
+      "kh": "ត្រូវតាមផ្លូវវាងទៅខាងស្តាំ។"
+    },
+    "alt": "Detour right sign",
+    "category": "Construction",
+    "question": {
+      "en": "Which direction should you follow for the detour?",
+      "kh": "សម្រាប់ផ្លូវវាង អ្នកត្រូវតាមទិសណា?"
+    }
+  },
+  {
+    "id": 85,
+    "sprite": {
+      "page": 18,
+      "x": 39.337,
+      "y": 909.438,
+      "width": 92.755,
+      "height": 125.149
+    },
+    "answer": {
+      "en": "This sign indicates trolley service.",
+      "kh": "សញ្ញានេះបង្ហាញអំពីសេវាត្រោលី។"
+    },
+    "alt": "Trolley sign",
+    "category": "Guide",
+    "question": {
+      "en": "What transportation service does this symbol identify?",
+      "kh": "និមិត្តសញ្ញានេះបង្ហាញសេវាដឹកជញ្ជូនប្រភេទអ្វី?"
+    }
+  },
+  {
+    "id": 86,
+    "sprite": {
+      "page": 18,
+      "x": 148.97,
+      "y": 927.84,
+      "width": 88.347,
+      "height": 88.347
+    },
+    "answer": {
+      "en": "This sign indicates an airport.",
+      "kh": "សញ្ញានេះបង្ហាញអាកាសយានដ្ឋាន។"
+    },
+    "alt": "Airport sign",
+    "category": "Guide",
+    "question": {
+      "en": "What nearby facility is indicated by this symbol?",
+      "kh": "និមិត្តសញ្ញានេះបង្ហាញអំពីសេវាកម្មជិតខាងអ្វី?"
+    }
+  },
+  {
+    "id": 87,
+    "sprite": {
+      "page": 18,
+      "x": 254.323,
+      "y": 925.456,
+      "width": 92.497,
+      "height": 93.11
+    },
+    "answer": {
+      "en": "This sign gives route directions for North 12 and South routes.",
+      "kh": "សញ្ញានេះផ្តល់ទិសផ្លូវសម្រាប់ផ្លូវលេខ 12 ទិសជើង និងទិសត្បូង។"
+    },
+    "alt": "Route direction sign",
+    "category": "Guide",
+    "question": {
+      "en": "What route guidance information is this sign giving?",
+      "kh": "សញ្ញានេះកំពុងផ្តល់ព័ត៌មានណែនាំផ្លូវអ្វី?"
+    }
+  },
+  {
+    "id": 88,
+    "sprite": {
+      "page": 18,
+      "x": 361.666,
+      "y": 925.678,
+      "width": 92.669,
+      "height": 92.669
+    },
+    "answer": {
+      "en": "This is the entrance to a carpool lane.",
+      "kh": "នេះជាច្រកចូលគន្លងរថយន្តរួមដំណើរ។"
+    },
+    "alt": "Carpool lane entrance sign",
+    "category": "Guide",
+    "question": {
+      "en": "What does this sign mark for HOV drivers?",
+      "kh": "សញ្ញានេះសម្គាល់អ្វីសម្រាប់អ្នកបើកបរ HOV?"
+    }
+  },
+  {
+    "id": 89,
+    "sprite": {
+      "page": 18,
+      "x": 471.741,
+      "y": 933.459,
+      "width": 87.373,
+      "height": 77.105
+    },
+    "answer": {
+      "en": "Exit to the right.",
+      "kh": "ចេញទៅខាងស្តាំ។"
+    },
+    "alt": "Exit right sign",
+    "category": "Guide",
+    "question": {
+      "en": "Where is the exit direction shown by this sign?",
+      "kh": "សញ្ញានេះបង្ហាញទិសផ្លូវចេញទៅណា?"
+    }
+  },
+  {
+    "id": 90,
+    "sprite": {
+      "page": 18,
+      "x": 576.247,
+      "y": 937.54,
+      "width": 93.221,
+      "height": 68.944
+    },
+    "answer": {
+      "en": "This is a designated bike route.",
+      "kh": "នេះជាផ្លូវកំណត់សម្រាប់កង់។"
+    },
+    "alt": "Bike route sign",
+    "category": "Guide",
+    "question": {
+      "en": "Who is this marked route intended for?",
+      "kh": "ផ្លូវដែលបានសម្គាល់នេះមានសម្រាប់អ្នកណា?"
+    }
+  },
+  {
+    "id": 91,
+    "sprite": {
+      "page": 18,
+      "x": 684.001,
+      "y": 947.613,
+      "width": 92.569,
+      "height": 48.799
+    },
+    "answer": {
+      "en": "A divided road is ahead in several miles.",
+      "kh": "មានផ្លូវបែងចែកកណ្ដាលនៅចម្ងាយប៉ុន្មានម៉ាយខាងមុខ។"
+    },
+    "alt": "Divided road miles ahead sign",
+    "category": "Guide",
+    "question": {
+      "en": "What road configuration is indicated several miles ahead?",
+      "kh": "តើលក្ខណៈផ្លូវអ្វីត្រូវបានបង្ហាញថានៅចម្ងាយប៉ុន្មានម៉ាយខាងមុខ?"
+    }
+  },
+  {
+    "id": 92,
+    "sprite": {
+      "page": 18,
+      "x": 39.449,
+      "y": 1132.688,
+      "width": 92.529,
+      "height": 40.554
+    },
+    "answer": {
+      "en": "Park-and-ride facilities are available here.",
+      "kh": "មានកន្លែង Park-and-Ride នៅទីនេះ។"
+    },
+    "alt": "Park and ride sign",
+    "category": "Guide",
+    "question": {
+      "en": "What commuter facility is available at this location?",
+      "kh": "តើមានសេវាកម្មសម្រាប់អ្នកធ្វើដំណើរប្រចាំអ្វីនៅទីតាំងនេះ?"
+    }
+  },
+  {
+    "id": 93,
+    "sprite": {
+      "page": 18,
+      "x": 146.905,
+      "y": 1106.726,
+      "width": 92.476,
+      "height": 92.476
+    },
+    "answer": {
+      "en": "Accessible facilities are available.",
+      "kh": "មានសេវាកម្មសម្រាប់ជនពិការនៅទីនេះ។"
+    },
+    "alt": "Accessible facility sign",
+    "category": "Guide",
+    "question": {
+      "en": "What accessibility information does this sign provide?",
+      "kh": "សញ្ញានេះផ្តល់ព័ត៌មានអំពីភាពអាចចូលប្រើបានអ្វីខ្លះ?"
+    }
+  },
+  {
+    "id": 94,
+    "sprite": {
+      "page": 18,
+      "x": 254.335,
+      "y": 1106.732,
+      "width": 92.473,
+      "height": 92.467
+    },
+    "answer": {
+      "en": "Telephone service is available.",
+      "kh": "មានសេវាទូរស័ព្ទនៅទីនេះ។"
+    },
+    "alt": "Telephone service sign",
+    "category": "Guide",
+    "question": {
+      "en": "What communication service can you find here?",
+      "kh": "នៅទីនេះ អ្នកអាចរកបានសេវាទំនាក់ទំនងអ្វី?"
+    }
+  },
+  {
+    "id": 95,
+    "sprite": {
+      "page": 18,
+      "x": 361.693,
+      "y": 1106.66,
+      "width": 92.613,
+      "height": 92.611
+    },
+    "answer": {
+      "en": "Electric vehicle charging is available.",
+      "kh": "មានស្ថានីយសាកថ្មរថយន្តអគ្គិសនីនៅទីនេះ។"
+    },
+    "alt": "Electric vehicle charging station sign",
+    "category": "Guide",
+    "question": {
+      "en": "What charging service is available for your vehicle?",
+      "kh": "សម្រាប់យានយន្តរបស់អ្នក មានសេវាសាកថ្មអ្វីនៅទីនេះ?"
+    }
+  },
+  {
+    "id": 96,
+    "sprite": {
+      "page": 18,
+      "x": 471.154,
+      "y": 1087.261,
+      "width": 88.549,
+      "height": 42.349
+    },
+    "answer": {
+      "en": "Emergency call 9-1-1 service is available.",
+      "kh": "មានសេវាហៅអាសន្ន 9-1-1 នៅទីនេះ។"
+    },
+    "alt": "Emergency call 9-1-1 sign",
+    "category": "Guide",
+    "question": {
+      "en": "What emergency service number is available from this location?",
+      "kh": "ពីទីតាំងនេះ មានលេខសេវាអាសន្នអ្វីដែលអាចប្រើបាន?"
+    }
+  },
+  {
+    "id": 97,
+    "sprite": {
+      "page": 18,
+      "x": 469.228,
+      "y": 1133.51,
+      "width": 92.4,
+      "height": 84.608
+    },
+    "answer": {
+      "en": "A rest area is 1 mile ahead; next services are 23 miles away.",
+      "kh": "មានកន្លែងសម្រាកនៅចម្ងាយ 1 ម៉ាយ ហើយសេវាកម្មបន្ទាប់នៅចម្ងាយ 23 ម៉ាយ។"
+    },
+    "alt": "Rest area and next services sign",
+    "category": "Guide",
+    "question": {
+      "en": "What services and distances are shown on this panel?",
+      "kh": "លើផ្ទាំងនេះ មានសេវាកម្ម និងចម្ងាយអ្វីត្រូវបានបង្ហាញ?"
+    }
+  },
+  {
+    "id": 98,
+    "sprite": {
+      "page": 18,
+      "x": 578.544,
+      "y": 1108.649,
+      "width": 88.627,
+      "height": 88.635
+    },
+    "answer": {
+      "en": "A hospital is nearby.",
+      "kh": "មានមន្ទីរពេទ្យនៅក្បែរនេះ។"
+    },
+    "alt": "Hospital sign",
+    "category": "Guide",
+    "question": {
+      "en": "What medical facility does this symbol point to?",
+      "kh": "និមិត្តសញ្ញានេះចង្អុលបង្ហាញទៅកាន់មណ្ឌលវេជ្ជសាស្ត្រអ្វី?"
+    }
+  },
+  {
+    "id": 99,
+    "sprite": {
+      "page": 18,
+      "x": 688.225,
+      "y": 1110.905,
+      "width": 84.123,
+      "height": 84.112
+    },
+    "answer": {
+      "en": "Camping facilities are available.",
+      "kh": "មានកន្លែងបោះជំរំនៅទីនេះ។"
+    },
+    "alt": "Camping sign",
+    "category": "Guide",
+    "question": {
+      "en": "What recreational lodging option is available nearby?",
+      "kh": "មានជម្រើសស្នាក់នៅលំហែប្រភេទអ្វីនៅជិតនេះ?"
+    }
   }
 ]
